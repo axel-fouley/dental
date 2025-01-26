@@ -1,0 +1,2289 @@
+<!doctype html>
+<!-- ✨ Built with Framer • https://www.framer.com/ -->
+<html lang="ru-RU">
+    <head>
+        <meta charset="utf-8">
+        <!-- Start of headStart -->
+        <!-- End of headStart -->
+        <meta name="viewport" content="width=device-width">
+        <meta name="generator" content="Framer 5bbf1f3">
+        <title>Ваш запрос отправлен.</title>
+        <meta name="description" content="Привлечём пациентов на ключевые услуги вашей стоматологии: виниры, импланты, брекеты и др. Полный цикл лидогенерации от анализа до рекламы">
+        <meta name="framer-search-index" content="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/searchIndex-IiXUAgIZrKqj.json">
+        <link href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png" rel="icon" media="(prefers-color-scheme: light)">
+        <link href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png" rel="icon" media="(prefers-color-scheme: dark)">
+        <link rel="apple-touch-icon" href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Ваш запрос отправлен.">
+        <meta property="og:description" content="Привлечём пациентов на ключевые услуги вашей стоматологии: виниры, импланты, брекеты и др. Полный цикл лидогенерации от анализа до рекламы">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Ваш запрос отправлен.">
+        <meta name="twitter:description" content="Привлечём пациентов на ключевые услуги вашей стоматологии: виниры, импланты, брекеты и др. Полный цикл лидогенерации от анализа до рекламы">
+        <meta name="robots" content="max-image-preview:large">
+        <link rel="canonical" href="https://dental.ax-g.net/thank-you">
+        <meta property="og:url" content="https://dental.ax-g.net/thank-you">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-DWTFYLE2.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-JR5VT52U.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-RIUMFBNJ.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/_7SmjKylzdlgeGw-EKPOD2a7ftqcfouW1qa_TLmPVGs.EX7APWU3.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-YSKIX5PL.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-42U43NKG.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-IJCUTOKU.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-V3XNM2WF.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.MQQSZNMR.mjs">
+        <style data-framer-breakpoint-css>
+            @media(min-width: 1200px) {
+                .hidden-1sons0x {
+                    display:none!important
+                }
+            }
+
+            @media(min-width: 810px) and (max-width: 1199px) {
+                .hidden-743s7m {
+                    display:none!important
+                }
+            }
+
+            @media(max-width: 809px) {
+                .hidden-x3ttlk {
+                    display:none!important
+                }
+            }
+        </style>
+        <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-djHWk PropertyOverrides framer-AkznO framer-P2vRx framer-esAUT">
+            html,body,#main {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box
+            }
+
+            :root {
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale
+            }
+
+            * {
+                box-sizing: border-box;
+                -webkit-font-smoothing: inherit
+            }
+
+            h1,h2,h3,h4,h5,h6,p,figure {
+                margin: 0
+            }
+
+            body,input,textarea,select,button {
+                font-size: 12px;
+                font-family: sans-serif
+            }
+
+            body {
+                --token-2b030028-f34a-4865-9716-3e2a0358c59d: rgb(12, 78, 110);
+                --token-612c5219-e771-4380-9480-d9b4184c0f39: rgb(191, 191, 191)
+            }
+
+            #__framer-badge-container {
+                position: fixed;
+                bottom: 0;
+                padding: 20px;
+                width: 100%;
+                display: none;
+                justify-content: right;
+                pointer-events: none;
+                z-index: 314159
+            }
+
+            .__framer-badge {
+                pointer-events: auto
+            }
+
+            @font-face {
+                font-family: Inter Tight Light;
+                src: url(https://framerusercontent.com/assets/HDopTuV0ml1V9vhVqfIuuHpIKM.woff2);
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Inter Tight Medium;
+                src: url(https://framerusercontent.com/assets/o5hCKvrzxPnDIDXiA6icOum4zs.woff2);
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Inter Tight SemiBold;
+                src: url(https://framerusercontent.com/assets/gct6hbbVFoxWtfqgSo4ybi6Ecs.woff2);
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Inter Tight Regular;
+                src: url(https://framerusercontent.com/assets/alQStfoYFSo7dk7Sy2KewCH9ueE.woff2);
+                font-display: swap
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/5vvr9Vy74if2I6bQbJvbw7SY1pQ.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/EOr0mi4hNtlgWNn9if640EZzXCo.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/Y9k9QrlZAqio88Klkmbd8VoMQc.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/OYrD2tBIBPvoJXiIHnLoOXnY9M.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/JeYwfuaPfZHQhEG8U5gtPDZ7WQ.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/vQyevYAyHtARFwPqUzQGpnDs.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 400;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/DpPBYI0sL4fYLgAkX8KXOPVt7c.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/4RAEQdEOrcnDkhHiiCbJOw92Lk.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/1K3W8DizY3v4emK8Mb08YHxTbs.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/tUSCtfYVM1I1IchuyCwz9gDdQ.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/VgYFWiwsAC5OYxAycRXXvhze58.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/DXD0Q7LSl7HEvDzucnyLnGBHM.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/GIryZETIX4IFypco5pYZONKhJIo.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 700;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/5A3Ce6C9YYmCjpQx9M4inSaKU.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/Qx95Xyt0Ka3SGhinnbXIGpEIyP4.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0301,U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/6mJuEAguuIuMog10gGvH5d3cl8.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+1F00-1FFF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/xYYWaj7wCU5zSQH0eXvSaS19wo.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0370-03FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/otTaNuNpVK4RbdlT7zDDdKvQBA.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/d3tHnaQIAeqiE5hGcRw4mmgWYU.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD
+            }
+
+            @font-face {
+                font-family: Inter;
+                src: url(https://framerusercontent.com/assets/DolVirEGb34pEXEp8t8FQBSK4.woff2);
+                font-display: swap;
+                font-style: normal;
+                font-weight: 500;
+                unicode-range: U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB
+            }
+
+            @font-face {
+                font-family: Inter Tight Light Placeholder;
+                src: local("Arial");
+                ascent-override:97.78%;descent-override:24.35%;line-gap-override:0%;size-adjust:99.08%}
+
+            @font-face {
+                font-family: Inter Tight Medium Placeholder;
+                src: local("Arial");
+                ascent-override:97.32%;descent-override:24.23%;line-gap-override:0%;size-adjust:99.54%}
+
+            @font-face {
+                font-family: Inter Tight SemiBold Placeholder;
+                src: local("Arial");
+                ascent-override:95.1%;descent-override:23.68%;line-gap-override:0%;size-adjust:101.86%}
+
+            @font-face {
+                font-family: Inter Tight Regular Placeholder;
+                src: local("Arial");
+                ascent-override:99.65%;descent-override:24.81%;line-gap-override:0%;size-adjust:97.21%}
+
+            @font-face {
+                font-family: Inter Placeholder;
+                src: local("Arial");
+                ascent-override:89.79%;descent-override:22.36%;line-gap-override:0%;size-adjust:107.89%}
+
+            body {
+                --framer-will-change-override: none
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (grid-template-rows: subgrid)) {
+                body {
+                    --framer-will-change-override: transform
+                }
+            }
+
+            [data-framer-component-type] {
+                position: absolute
+            }
+
+            [data-framer-component-type=Text] {
+                cursor: inherit
+            }
+
+            [data-framer-component-text-autosized] * {
+                white-space: pre
+            }
+
+            [data-framer-component-type=Text]>* {
+                text-align: var(--framer-text-alignment, start)
+            }
+
+            [data-framer-component-type=Text] span span,[data-framer-component-type=Text] p span,[data-framer-component-type=Text] h1 span,[data-framer-component-type=Text] h2 span,[data-framer-component-type=Text] h3 span,[data-framer-component-type=Text] h4 span,[data-framer-component-type=Text] h5 span,[data-framer-component-type=Text] h6 span {
+                display: block
+            }
+
+            [data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span {
+                display: unset
+            }
+
+            [data-framer-component-type=Text] div div span,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span,[data-framer-component-type=Text] a {
+                font-family: var(--font-family);
+                font-style: var(--font-style);
+                font-weight: min(calc(var(--framer-font-weight-increase, 0) + var(--font-weight, 400)),900);
+                color: var(--text-color);
+                letter-spacing: var(--letter-spacing);
+                font-size: var(--font-size);
+                text-transform: var(--text-transform);
+                text-decoration: var(--text-decoration);
+                line-height: var(--line-height)
+            }
+
+            [data-framer-component-type=Text] div div span,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] span span span,[data-framer-component-type=Text] p span span,[data-framer-component-type=Text] h1 span span,[data-framer-component-type=Text] h2 span span,[data-framer-component-type=Text] h3 span span,[data-framer-component-type=Text] h4 span span,[data-framer-component-type=Text] h5 span span,[data-framer-component-type=Text] h6 span span,[data-framer-component-type=Text] a {
+                --font-family: var(--framer-font-family);
+                --font-style: var(--framer-font-style);
+                --font-weight: var(--framer-font-weight);
+                --text-color: var(--framer-text-color);
+                --letter-spacing: var(--framer-letter-spacing);
+                --font-size: var(--framer-font-size);
+                --text-transform: var(--framer-text-transform);
+                --text-decoration: var(--framer-text-decoration);
+                --line-height: var(--framer-line-height)
+            }
+
+            [data-framer-component-type=Text] a,[data-framer-component-type=Text] a div span,[data-framer-component-type=Text] a span span span,[data-framer-component-type=Text] a p span span,[data-framer-component-type=Text] a h1 span span,[data-framer-component-type=Text] a h2 span span,[data-framer-component-type=Text] a h3 span span,[data-framer-component-type=Text] a h4 span span,[data-framer-component-type=Text] a h5 span span,[data-framer-component-type=Text] a h6 span span {
+                --font-family: var(--framer-link-font-family, var(--framer-font-family));
+                --font-style: var(--framer-link-font-style, var(--framer-font-style));
+                --font-weight: var(--framer-link-font-weight, var(--framer-font-weight));
+                --text-color: var(--framer-link-text-color, var(--framer-text-color));
+                --font-size: var(--framer-link-font-size, var(--framer-font-size));
+                --text-transform: var(--framer-link-text-transform, var(--framer-text-transform));
+                --text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration))
+            }
+
+            [data-framer-component-type=Text] a:hover,[data-framer-component-type=Text] a div span:hover,[data-framer-component-type=Text] a span span span:hover,[data-framer-component-type=Text] a p span span:hover,[data-framer-component-type=Text] a h1 span span:hover,[data-framer-component-type=Text] a h2 span span:hover,[data-framer-component-type=Text] a h3 span span:hover,[data-framer-component-type=Text] a h4 span span:hover,[data-framer-component-type=Text] a h5 span span:hover,[data-framer-component-type=Text] a h6 span span:hover {
+                --font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+                --font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+                --font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+                --text-color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+                --font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+                --text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+                --text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+            }
+
+            [data-framer-component-type=Text].isCurrent a,[data-framer-component-type=Text].isCurrent a div span,[data-framer-component-type=Text].isCurrent a span span span,[data-framer-component-type=Text].isCurrent a p span span,[data-framer-component-type=Text].isCurrent a h1 span span,[data-framer-component-type=Text].isCurrent a h2 span span,[data-framer-component-type=Text].isCurrent a h3 span span,[data-framer-component-type=Text].isCurrent a h4 span span,[data-framer-component-type=Text].isCurrent a h5 span span,[data-framer-component-type=Text].isCurrent a h6 span span {
+                --font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family)));
+                --font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style)));
+                --font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight)));
+                --text-color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color)));
+                --font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size)));
+                --text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform)));
+                --text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
+            }
+
+            p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,ol.framer-text,ul.framer-text {
+                margin: 0;
+                padding: 0
+            }
+
+            p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,li.framer-text,ol.framer-text,ul.framer-text,span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-blockquote-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-blockquote-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-blockquote-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-blockquote-text-color, var(--framer-text-color, #000));
+                font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+                letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+                text-transform: var(--framer-blockquote-text-transform, var(--framer-text-transform, none));
+                text-decoration: var(--framer-blockquote-text-decoration, var(--framer-text-decoration, none));
+                line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em));
+                text-align: var(--framer-blockquote-text-alignment, var(--framer-text-alignment, start));
+                -webkit-text-stroke-width: var(--framer-text-stroke-width, initial);
+                -webkit-text-stroke-color: var(--framer-text-stroke-color, initial);
+                -moz-font-feature-settings: var(--framer-font-open-type-features, initial);
+                -webkit-font-feature-settings: var(--framer-font-open-type-features, initial);
+                font-feature-settings: var(--framer-font-open-type-features, initial);
+                font-variation-settings: var(--framer-font-variation-axes, normal);
+                text-wrap: var(--framer-text-wrap-override, var(--framer-text-wrap))
+            }
+
+            .framer-fit-text .framer-text {
+                white-space: nowrap;
+                white-space-collapse: preserve
+            }
+
+            strong.framer-text {
+                font-family: var(--framer-blockquote-font-family-bold, var(--framer-font-family-bold));
+                font-style: var(--framer-blockquote-font-style-bold, var(--framer-font-style-bold));
+                font-weight: var(--framer-blockquote-font-weight-bold, var(--framer-font-weight-bold, bolder));
+                font-variation-settings: var(--framer-blockquote-font-variation-axes-bold, var(--framer-font-variation-axes-bold))
+            }
+
+            em.framer-text {
+                font-family: var(--framer-blockquote-font-family-italic, var(--framer-font-family-italic));
+                font-style: var(--framer-blockquote-font-style-italic, var(--framer-font-style-italic, italic));
+                font-weight: var(--framer-blockquote-font-weight-italic, var(--framer-font-weight-italic));
+                font-variation-settings: var(--framer-blockquote-font-variation-axes-italic, var(--framer-font-variation-axes-italic))
+            }
+
+            em.framer-text>strong.framer-text {
+                font-family: var(--framer-blockquote-font-family-bold-italic, var(--framer-font-family-bold-italic));
+                font-style: var(--framer-blockquote-font-style-bold-italic, var(--framer-font-style-bold-italic, italic));
+                font-weight: var(--framer-blockquote-font-weight-bold-italic, var(--framer-font-weight-bold-italic, bolder));
+                font-variation-settings: var(--framer-blockquote-font-variation-axes-bold-italic, var(--framer-font-variation-axes-bold-italic))
+            }
+
+            p.framer-text:not(:first-child),div.framer-text:not(:first-child),h1.framer-text:not(:first-child),h2.framer-text:not(:first-child),h3.framer-text:not(:first-child),h4.framer-text:not(:first-child),h5.framer-text:not(:first-child),h6.framer-text:not(:first-child),ol.framer-text:not(:first-child),ul.framer-text:not(:first-child),blockquote.framer-text:not(:first-child),.framer-image.framer-text:not(:first-child) {
+                margin-top: var(--framer-blockquote-paragraph-spacing, var(--framer-paragraph-spacing, 0))
+            }
+
+            li.framer-text>ul.framer-text:nth-child(2),li.framer-text>ol.framer-text:nth-child(2) {
+                margin-top: 0
+            }
+
+            .framer-text[data-text-fill] {
+                display: inline-block;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: max(0em,calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / 2));
+                margin: min(0em,calc(calc(1.3em - var(--framer-blockquote-line-height, var(--framer-line-height, 1.3em))) / -2))
+            }
+
+            code.framer-text,code.framer-text span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-blockquote-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+                letter-spacing: var(--framer-blockquote-letter-spacing, var(--framer-letter-spacing, 0));
+                line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))
+            }
+
+            blockquote.framer-text {
+                margin-block-start:initial;margin-block-end:initial;margin-inline-start:initial;margin-inline-end:initial;unicode-bidi: initial
+            }
+
+            a.framer-text,a.framer-text span.framer-text:not([data-text-fill]),span.framer-text[data-nested-link],span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)));
+                cursor: var(--framer-custom-cursors, pointer)
+            }
+
+            code.framer-text a.framer-text,code.framer-text a.framer-text span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link],code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text:hover,a.framer-text:hover span.framer-text:not([data-text-fill]),span.framer-text[data-nested-link]:hover,span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-blockquote-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+                font-style: var(--framer-link-hover-font-style, var(--framer-blockquote-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-blockquote-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+                color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-blockquote-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+            }
+
+            code.framer-text a.framer-text:hover,code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link]:hover,code.framer-text span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text[data-framer-page-link-current],a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current],span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            code.framer-text a.framer-text[data-framer-page-link-current],code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current],code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+            }
+
+            a.framer-text[data-framer-page-link-current]:hover,a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current]:hover,span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+            }
+
+            code.framer-text a.framer-text[data-framer-page-link-current]:hover,code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current]:hover,code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
+                font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            }
+
+            .framer-image.framer-text {
+                display: block;
+                max-width: 100%;
+                height: auto
+            }
+
+            .text-styles-preset-reset.framer-text {
+                --framer-font-family: Inter, Inter Placeholder, sans-serif;
+                --framer-font-style: normal;
+                --framer-font-weight: 500;
+                --framer-text-color: #000;
+                --framer-font-size: 16px;
+                --framer-letter-spacing: 0;
+                --framer-text-transform: none;
+                --framer-text-decoration: none;
+                --framer-line-height: 1.2em;
+                --framer-text-alignment: start;
+                --framer-font-open-type-features: normal
+            }
+
+            ol.framer-text {
+                --list-style-type: decimal
+            }
+
+            ul.framer-text,ol.framer-text {
+                display: table;
+                width: 100%
+            }
+
+            li.framer-text {
+                display: table-row;
+                counter-increment: list-item;
+                list-style: none
+            }
+
+            ol.framer-text>li.framer-text:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-inline-end:.75ch;content: counter(list-item,var(--list-style-type)) ".";
+                white-space: nowrap
+            }
+
+            ul.framer-text>li.framer-text:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-inline-end:.75ch;content: "\2022"
+            }
+
+            .framer-text-module[style*=aspect-ratio]>:first-child {
+                width: 100%
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio] {
+                    position:relative
+                }
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio]:before {
+                    content:"";
+                    display: block;
+                    padding-bottom: calc(100% / calc(var(--aspect-ratio)))
+                }
+            }
+
+            @supports not (aspect-ratio: 1) {
+                .framer-text-module[style*=aspect-ratio]>:first-child {
+                    position:absolute;
+                    top: 0;
+                    left: 0;
+                    height: 100%
+                }
+            }
+
+            [data-framer-component-type=DeprecatedRichText] {
+                cursor: inherit
+            }
+
+            [data-framer-component-type=DeprecatedRichText] .text-styles-preset-reset {
+                --framer-font-family: Inter, Inter Placeholder, sans-serif;
+                --framer-font-style: normal;
+                --framer-font-weight: 500;
+                --framer-text-color: #000;
+                --framer-font-size: 16px;
+                --framer-letter-spacing: 0;
+                --framer-text-transform: none;
+                --framer-text-decoration: none;
+                --framer-line-height: 1.2em;
+                --framer-text-alignment: start;
+                --framer-font-open-type-features: normal;
+                --font-variation-settings: normal
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p,[data-framer-component-type=DeprecatedRichText] div,[data-framer-component-type=DeprecatedRichText] h1,[data-framer-component-type=DeprecatedRichText] h2,[data-framer-component-type=DeprecatedRichText] h3,[data-framer-component-type=DeprecatedRichText] h4,[data-framer-component-type=DeprecatedRichText] h5,[data-framer-component-type=DeprecatedRichText] h6 {
+                margin: 0;
+                padding: 0
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p,[data-framer-component-type=DeprecatedRichText] div,[data-framer-component-type=DeprecatedRichText] h1,[data-framer-component-type=DeprecatedRichText] h2,[data-framer-component-type=DeprecatedRichText] h3,[data-framer-component-type=DeprecatedRichText] h4,[data-framer-component-type=DeprecatedRichText] h5,[data-framer-component-type=DeprecatedRichText] h6,[data-framer-component-type=DeprecatedRichText] li,[data-framer-component-type=DeprecatedRichText] ol,[data-framer-component-type=DeprecatedRichText] ul,[data-framer-component-type=DeprecatedRichText] span:not([data-text-fill]) {
+                font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+                font-style: var(--framer-font-style, normal);
+                font-weight: var(--framer-font-weight, 400);
+                color: var(--framer-text-color, #000);
+                font-size: var(--framer-font-size, 16px);
+                letter-spacing: var(--framer-letter-spacing, 0);
+                text-transform: var(--framer-text-transform, none);
+                text-decoration: var(--framer-text-decoration, none);
+                line-height: var(--framer-line-height, 1.2em);
+                text-align: var(--framer-text-alignment, start)
+            }
+
+            [data-framer-component-type=DeprecatedRichText] p:not(:first-child),[data-framer-component-type=DeprecatedRichText] div:not(:first-child),[data-framer-component-type=DeprecatedRichText] h1:not(:first-child),[data-framer-component-type=DeprecatedRichText] h2:not(:first-child),[data-framer-component-type=DeprecatedRichText] h3:not(:first-child),[data-framer-component-type=DeprecatedRichText] h4:not(:first-child),[data-framer-component-type=DeprecatedRichText] h5:not(:first-child),[data-framer-component-type=DeprecatedRichText] h6:not(:first-child),[data-framer-component-type=DeprecatedRichText] ol:not(:first-child),[data-framer-component-type=DeprecatedRichText] ul:not(:first-child),[data-framer-component-type=DeprecatedRichText] .framer-image:not(:first-child) {
+                margin-top: var(--framer-paragraph-spacing, 0)
+            }
+
+            [data-framer-component-type=DeprecatedRichText] span[data-text-fill] {
+                display: inline-block;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a,[data-framer-component-type=DeprecatedRichText] a span:not([data-text-fill]) {
+                font-family: var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
+                font-style: var(--framer-link-font-style, var(--framer-font-style, normal));
+                font-weight: var(--framer-link-font-weight, var(--framer-font-weight, 400));
+                color: var(--framer-link-text-color, var(--framer-text-color, #000));
+                font-size: var(--framer-link-font-size, var(--framer-font-size, 16px));
+                text-transform: var(--framer-link-text-transform, var(--framer-text-transform, none));
+                text-decoration: var(--framer-link-text-decoration, var(--framer-text-decoration, none))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a:hover,[data-framer-component-type=DeprecatedRichText] a:hover span:not([data-text-fill]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-hover-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: var(--framer-link-hover-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current],[data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current] span:not([data-text-fill]):not([data-nested-link]) {
+                font-family: var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
+                font-style: var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal)));
+                font-weight: var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400)));
+                color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000)));
+                font-size: var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)));
+                text-transform: var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none)));
+                text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover,[data-framer-component-type=DeprecatedRichText] a[data-framer-page-link-current]:hover span:not([data-text-fill]):not([data-nested-link]) {
+                font-family: var(--framer-link-hover-font-family, var(--framer-link-current-font-family, var(--framer-link-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif))));
+                font-style: var(--framer-link-hover-font-style, var(--framer-link-current-font-style, var(--framer-link-font-style, var(--framer-font-style, normal))));
+                font-weight: var(--framer-link-hover-font-weight, var(--framer-link-current-font-weight, var(--framer-link-font-weight, var(--framer-font-weight, 400))));
+                color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-text-color, #000))));
+                font-size: var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))));
+                text-transform: var(--framer-link-hover-text-transform, var(--framer-link-current-text-transform, var(--framer-link-text-transform, var(--framer-text-transform, none))));
+                text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
+            }
+
+            [data-framer-component-type=DeprecatedRichText] strong {
+                font-weight: bolder
+            }
+
+            [data-framer-component-type=DeprecatedRichText] em {
+                font-style: italic
+            }
+
+            [data-framer-component-type=DeprecatedRichText] .framer-image {
+                display: block;
+                max-width: 100%;
+                height: auto
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ul,[data-framer-component-type=DeprecatedRichText] ol {
+                display: table;
+                width: 100%;
+                padding-left: 0;
+                margin: 0
+            }
+
+            [data-framer-component-type=DeprecatedRichText] li {
+                display: table-row;
+                counter-increment: list-item;
+                list-style: none
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ol>li:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-right: .75ch;
+                content: counter(list-item) ".";
+                white-space: nowrap
+            }
+
+            [data-framer-component-type=DeprecatedRichText] ul>li:before {
+                display: table-cell;
+                width: 2.25ch;
+                box-sizing: border-box;
+                padding-right: .75ch;
+                content: "\2022"
+            }
+
+            :not([data-framer-generated])>[data-framer-stack-content-wrapper]>*,:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-component-type],:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>*,:not([data-framer-generated])>[data-framer-stack-content-wrapper]>[data-framer-legacy-stack-gap-enabled]>[data-framer-component-type] {
+                position: relative
+            }
+
+            .flexbox-gap-not-supported [data-framer-legacy-stack-gap-enabled=true]>*,[data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false] {
+                margin-top: calc(var(--stack-gap-y) / 2);
+                margin-bottom: calc(var(--stack-gap-y) / 2);
+                margin-right: calc(var(--stack-gap-x) / 2);
+                margin-left: calc(var(--stack-gap-x) / 2)
+            }
+
+            [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+                row-gap: var(--stack-native-row-gap);
+                column-gap: var(--stack-native-column-gap)
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-content-wrapper][data-framer-stack-gap-enabled=true] {
+                row-gap: unset;
+                column-gap: unset
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,[data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child,.flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,[data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child {
+                margin-top: 0;
+                margin-left: 0
+            }
+
+            .flexbox-gap-not-supported [data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true]>*:last-child,[data-framer-stack-direction-reverse=false] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:last-child,.flexbox-gap-not-supported [data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true]>*:first-child,[data-framer-stack-direction-reverse=true] [data-framer-legacy-stack-gap-enabled=true][data-framer-stack-flexbox-gap=false]>*:first-child {
+                margin-right: 0;
+                margin-bottom: 0
+            }
+
+            NavigationContainer [data-framer-component-type=NavigationContainer]>*,[data-framer-component-type=NavigationContainer]>[data-framer-component-type] {
+                position: relative
+            }
+
+            [data-framer-component-type=Scroll]::-webkit-scrollbar {
+                display: none
+            }
+
+            [data-framer-component-type=ScrollContentWrapper]>* {
+                position: relative
+            }
+
+            [data-framer-component-type=NativeScroll] {
+                -webkit-overflow-scrolling: touch
+            }
+
+            [data-framer-component-type=NativeScroll]>* {
+                position: relative
+            }
+
+            [data-framer-component-type=NativeScroll].direction-both {
+                overflow-x: scroll;
+                overflow-y: scroll
+            }
+
+            [data-framer-component-type=NativeScroll].direction-vertical {
+                overflow-x: hidden;
+                overflow-y: scroll
+            }
+
+            [data-framer-component-type=NativeScroll].direction-horizontal {
+                overflow-x: scroll;
+                overflow-y: hidden
+            }
+
+            [data-framer-component-type=NativeScroll].direction-vertical>* {
+                width: 100%!important
+            }
+
+            [data-framer-component-type=NativeScroll].direction-horizontal>* {
+                height: 100%!important
+            }
+
+            [data-framer-component-type=NativeScroll].scrollbar-hidden::-webkit-scrollbar {
+                display: none
+            }
+
+            [data-framer-component-type=PageContentWrapper]>*,[data-framer-component-type=PageContentWrapper]>[data-framer-component-type] {
+                position: relative
+            }
+
+            [data-framer-component-type=DeviceComponent].no-device>* {
+                width: 100%!important;
+                height: 100%!important
+            }
+
+            [data-is-present=false],[data-is-present=false] * {
+                pointer-events: none!important
+            }
+
+            [data-framer-cursor=pointer] {
+                cursor: pointer
+            }
+
+            [data-framer-cursor=grab] {
+                cursor: grab
+            }
+
+            [data-framer-cursor=grab]:active {
+                cursor: grabbing
+            }
+
+            [data-framer-component-type=Frame] *,[data-framer-component-type=Stack] * {
+                pointer-events: auto
+            }
+
+            [data-framer-generated] * {
+                pointer-events: unset
+            }
+
+            .svgContainer svg {
+                display: block
+            }
+
+            [data-reset=button] {
+                border-width: 0;
+                padding: 0;
+                background: none
+            }
+
+            [data-hide-scrollbars=true]::-webkit-scrollbar {
+                width: 0px;
+                height: 0px
+            }
+
+            [data-hide-scrollbars=true]::-webkit-scrollbar-thumb {
+                background: transparent
+            }
+
+            .framer-cursor-none,.framer-cursor-none * {
+                cursor: none!important
+            }
+
+            .framer-pointer-events-none,.framer-pointer-events-none * {
+                pointer-events: none!important
+            }
+
+            .framer-body-vOBuGQ9vP-framer-djHWk {
+                background: hsl(0,0%,100%)
+            }
+
+            .framer-djHWk.framer-1v6dztv,.framer-djHWk .framer-1v6dztv {
+                display: block
+            }
+
+            .framer-djHWk.framer-1sons0x {
+                align-content: center;
+                align-items: center;
+                background-color: #fff;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                height: 650px;
+                justify-content: space-between;
+                overflow: hidden;
+                padding: 30px;
+                position: relative;
+                width: 1200px
+            }
+
+            .framer-djHWk .framer-kwyk3f {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-djHWk .framer-1he75uq {
+                align-content: flex-start;
+                align-items: flex-start;
+                aspect-ratio: 1 / 1;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 80px;
+                height: var(--framer-aspect-ratio-supported, 60px);
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                width: 60px
+            }
+
+            .framer-djHWk .framer-1w14tj6 {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 30px;
+                height: min-content;
+                justify-content: flex-start;
+                max-width: 100%;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 600px
+            }
+
+            .framer-djHWk .framer-5xvodz {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 20px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-djHWk .framer-19m0ihy {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                overflow: visible;
+                position: relative;
+                white-space: pre-wrap;
+                width: 100%;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-djHWk .framer-1e14cry {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: flex-start;
+                max-width: 500px;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-djHWk .framer-1dh4lhf {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                --framer-paragraph-spacing: 0px;
+                flex: 1 0 0px;
+                height: auto;
+                opacity: .6;
+                overflow: visible;
+                position: relative;
+                white-space: pre-wrap;
+                width: 1px;
+                word-break: break-word;
+                word-wrap: break-word
+            }
+
+            .framer-djHWk .framer-1wi22ez {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: center;
+                max-width: 430px;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100%
+            }
+
+            .framer-djHWk .framer-hep0s3 {
+                align-content: center;
+                align-items: center;
+                background-color: var(--token-2b030028-f34a-4865-9716-3e2a0358c59d, #0c4e6e);
+                border-radius: 46px;
+                box-shadow: 0 .7065919983928324px .7065919983928324px -.625px #00000026,0 1.8065619053231785px 1.8065619053231785px -1.25px #00000025,0 3.6217592146567767px 3.6217592146567767px -1.875px #00000023,0 6.8655999097303715px 6.8655999097303715px -2.5px #00000020,0 13.646761411524492px 13.646761411524492px -3.125px #0000001b,0 30px 30px -3.75px #0000000d;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 7px 24px 8px;
+                position: relative;
+                text-decoration: none;
+                width: min-content
+            }
+
+            .framer-djHWk .framer-1yyd3kd {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                --framer-paragraph-spacing: 0px;
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            .framer-djHWk .framer-xb2ijt {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 18px;
+                height: min-content;
+                justify-content: flex-start;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: min-content
+            }
+
+            .framer-djHWk .framer-y0zin8 {
+                align-content: center;
+                align-items: center;
+                display: flex;
+                flex: none;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 14px;
+                height: 30px;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                width: 100px
+            }
+
+            .framer-djHWk .framer-seqy9a-container,.framer-djHWk .framer-1u88pwe-container,.framer-djHWk .framer-wsabay-container {
+                flex: none;
+                height: auto;
+                position: relative;
+                width: auto
+            }
+
+            .framer-djHWk .framer-zd0p2r,.framer-djHWk .framer-vkhd7w {
+                --framer-link-text-color: #0099ff;
+                --framer-link-text-decoration: underline;
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
+                .framer-djHWk .framer-kwyk3f,.framer-djHWk .framer-1he75uq,.framer-djHWk .framer-1w14tj6,.framer-djHWk .framer-5xvodz,.framer-djHWk .framer-1e14cry,.framer-djHWk .framer-1wi22ez,.framer-djHWk .framer-hep0s3,.framer-djHWk .framer-xb2ijt,.framer-djHWk .framer-y0zin8 {
+                    gap:0px
+                }
+
+                .framer-djHWk .framer-kwyk3f>*,.framer-djHWk .framer-1e14cry>*,.framer-djHWk .framer-1wi22ez>*,.framer-djHWk .framer-hep0s3>* {
+                    margin: 0 5px
+                }
+
+                .framer-djHWk .framer-kwyk3f>:first-child,.framer-djHWk .framer-1he75uq>:first-child,.framer-djHWk .framer-1e14cry>:first-child,.framer-djHWk .framer-1wi22ez>:first-child,.framer-djHWk .framer-hep0s3>:first-child,.framer-djHWk .framer-xb2ijt>:first-child,.framer-djHWk .framer-y0zin8>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-djHWk .framer-kwyk3f>:last-child,.framer-djHWk .framer-1he75uq>:last-child,.framer-djHWk .framer-1e14cry>:last-child,.framer-djHWk .framer-1wi22ez>:last-child,.framer-djHWk .framer-hep0s3>:last-child,.framer-djHWk .framer-xb2ijt>:last-child,.framer-djHWk .framer-y0zin8>:last-child {
+                    margin-right: 0
+                }
+
+                .framer-djHWk .framer-1he75uq>* {
+                    margin: 0 40px
+                }
+
+                .framer-djHWk .framer-1w14tj6>* {
+                    margin: 15px 0
+                }
+
+                .framer-djHWk .framer-1w14tj6>:first-child,.framer-djHWk .framer-5xvodz>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-djHWk .framer-1w14tj6>:last-child,.framer-djHWk .framer-5xvodz>:last-child {
+                    margin-bottom: 0
+                }
+
+                .framer-djHWk .framer-5xvodz>* {
+                    margin: 10px 0
+                }
+
+                .framer-djHWk .framer-xb2ijt>* {
+                    margin: 0 9px
+                }
+
+                .framer-djHWk .framer-y0zin8>* {
+                    margin: 0 7px
+                }
+            }
+
+            @media (max-width: 809px) {
+                .framer-body-vOBuGQ9vP-framer-djHWk {
+                    background:hsl(0,0%,100%)
+                }
+
+                .framer-djHWk.framer-1sons0x {
+                    width: 390px
+                }
+
+                .framer-djHWk .framer-1w14tj6 {
+                    width: 310px
+                }
+
+                .framer-djHWk .framer-hep0s3 {
+                    flex: 1 0 0px;
+                    width: 1px
+                }
+            }
+
+            @media (min-width: 810px) and (max-width: 1199px) {
+                .framer-body-vOBuGQ9vP-framer-djHWk {
+                    background:hsl(0,0%,100%)
+                }
+
+                .framer-djHWk.framer-1sons0x {
+                    width: 810px
+                }
+            }
+
+            .ssr-variant {
+                display: contents
+            }
+
+            .framer-AkznO.framer-1s3b9km,.framer-AkznO .framer-1s3b9km {
+                display: block
+            }
+
+            .framer-AkznO.framer-5s8ial {
+                align-content: center;
+                align-items: center;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 80px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                width: min-content
+            }
+
+            .framer-AkznO .framer-1marcg5 {
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-AkznO.framer-5s8ial {
+                    gap:0px
+                }
+
+                .framer-AkznO.framer-5s8ial>* {
+                    margin: 0 40px
+                }
+
+                .framer-AkznO.framer-5s8ial>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-AkznO.framer-5s8ial>:last-child {
+                    margin-right: 0
+                }
+            }
+
+            .framer-AkznO.framer-v-1o8wal.framer-5s8ial {
+                cursor: unset
+            }
+
+            .framer-P2vRx.framer-1080swd,.framer-P2vRx .framer-1080swd {
+                display: block
+            }
+
+            .framer-P2vRx.framer-wxtuy5 {
+                align-content: center;
+                align-items: center;
+                cursor: pointer;
+                display: flex;
+                flex-direction: column;
+                flex-wrap: nowrap;
+                gap: 80px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                width: min-content
+            }
+
+            .framer-P2vRx .framer-yc195b {
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-P2vRx.framer-wxtuy5 {
+                    gap:0px
+                }
+
+                .framer-P2vRx.framer-wxtuy5>* {
+                    margin: 40px 0
+                }
+
+                .framer-P2vRx.framer-wxtuy5>:first-child {
+                    margin-top: 0
+                }
+
+                .framer-P2vRx.framer-wxtuy5>:last-child {
+                    margin-bottom: 0
+                }
+            }
+
+            @supports (aspect-ratio: 1) {
+                body {
+                    --framer-aspect-ratio-supported: auto
+                }
+            }
+
+            .framer-esAUT.framer-1yccj3r,.framer-esAUT .framer-1yccj3r {
+                display: block
+            }
+
+            .framer-esAUT.framer-1sbeafg {
+                align-content: center;
+                align-items: center;
+                cursor: pointer;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                gap: 10px;
+                height: min-content;
+                justify-content: center;
+                overflow: visible;
+                padding: 0;
+                position: relative;
+                text-decoration: none;
+                width: min-content
+            }
+
+            .framer-esAUT .framer-g46s17 {
+                flex: none;
+                height: auto;
+                position: relative;
+                white-space: pre;
+                width: auto
+            }
+
+            @supports (background: -webkit-named-image(i)) and (not (font-palette:dark)) {
+                .framer-esAUT.framer-1sbeafg {
+                    gap:0px
+                }
+
+                .framer-esAUT.framer-1sbeafg>* {
+                    margin: 0 5px
+                }
+
+                .framer-esAUT.framer-1sbeafg>:first-child {
+                    margin-left: 0
+                }
+
+                .framer-esAUT.framer-1sbeafg>:last-child {
+                    margin-right: 0
+                }
+            }
+        </style>
+        <!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();
+   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
+   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(98765904, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/98765904" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+        <!-- Start of headEnd -->
+        <!-- End of headEnd -->
+    </head>
+    <body class="framer-body-vOBuGQ9vP-framer-djHWk">
+        <script async src="https://events.framer.com/script" data-fid="8268db215a0889a1b23867ebc5c86804b3c49a3bdf5c117055457d65da7ac62d"></script>
+        <!-- Start of bodyStart -->
+        <!-- End of bodyStart -->
+        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;vOBuGQ9vP&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;1sons0x&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;743s7m&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199px)&quot;},{&quot;hash&quot;:&quot;x3ttlk&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809px)&quot;}]}" data-framer-ssr-released-at="2025-01-22T14:30:45.530Z" data-framer-page-optimized-at="2025-01-26T18:39:26.379Z">
+            <!--$-->
+            <div class="framer-djHWk framer-1sons0x" style="min-height:100vh;width:auto">
+                <div class="framer-kwyk3f" style="opacity:0;transform:perspective(1200px) scale(0.9) rotate(-180deg)">
+                    <!--$-->
+                    <a class="framer-1he75uq framer-1v6dztv" href="./">
+                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                            <img decoding="async" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                        </div>
+                    </a>
+                    <!--/$-->
+                </div>
+                <div class="framer-1w14tj6">
+                    <div class="framer-5xvodz">
+                        <div class="ssr-variant hidden-x3ttlk">
+                            <div class="framer-19m0ihy" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;opacity:0;transform:scale(0.9)" data-framer-component-type="RichTextContainer">
+                                <h1 style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFNlbWlCb2xk;--framer-font-family:&quot;Inter Tight SemiBold&quot;, &quot;Inter Tight SemiBold Placeholder&quot;, sans-serif;--framer-font-size:50px;--framer-letter-spacing:-0.5px;--framer-line-height:0.9em;--framer-text-alignment:center;--framer-text-color:var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, rgb(0, 17, 34))" class="framer-text">
+                                    Спасибо!
+                                    <span style="--framer-letter-spacing:0px" class="framer-text">
+                                        <br class="framer-text">
+                                    </span>
+                                    Мы получили ваш запрос.
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="ssr-variant hidden-743s7m hidden-1sons0x">
+                            <div class="framer-19m0ihy" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;opacity:0;transform:scale(0.9)" data-framer-component-type="RichTextContainer">
+                                <h1 style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFNlbWlCb2xk;--framer-font-family:&quot;Inter Tight SemiBold&quot;, &quot;Inter Tight SemiBold Placeholder&quot;, sans-serif;--framer-font-size:40px;--framer-letter-spacing:-0.5px;--framer-line-height:0.9em;--framer-text-alignment:center;--framer-text-color:var(--token-b9c3c957-2c66-49c4-9732-fa196fddac20, rgb(0, 17, 34))" class="framer-text">
+                                    <span style="--framer-font-size:48px" class="framer-text">Спасибо!</span>
+                                    <span style="--framer-font-size:48px;--framer-letter-spacing:0px" class="framer-text">
+                                        <br class="framer-text">
+                                    </span>
+                                    <span style="--framer-font-size:48px" class="framer-text">Мы получили ваш запрос.</span>
+                                </h1>
+                            </div>
+                        </div>
+                        <div class="framer-1e14cry">
+                            <div class="ssr-variant hidden-x3ttlk">
+                                <div class="framer-1dh4lhf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;opacity:0;transform:scale(0.9)" data-framer-component-type="RichTextContainer">
+                                    <h2 style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IE1lZGl1bQ==;--framer-font-family:&quot;Inter Tight Medium&quot;, &quot;Inter Tight Medium Placeholder&quot;, sans-serif;--framer-font-size:24px;--framer-letter-spacing:0px;--framer-line-height:1.3em;--framer-text-alignment:center;--framer-text-color:rgb(7, 35, 48)" class="framer-text">Ваш расчёт уже в работе. Мы отправим его вам в ближайшее время.</h2>
+                                </div>
+                            </div>
+                            <div class="ssr-variant hidden-743s7m hidden-1sons0x">
+                                <div class="framer-1dh4lhf" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;opacity:0;transform:scale(0.9)" data-framer-component-type="RichTextContainer">
+                                    <h2 style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IE1lZGl1bQ==;--framer-font-family:&quot;Inter Tight Medium&quot;, &quot;Inter Tight Medium Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-letter-spacing:0px;--framer-line-height:1.3em;--framer-text-alignment:center;--framer-text-color:rgb(7, 35, 48)" class="framer-text">Ваш расчёт уже в работе. Мы отправим его вам в ближайшее время.</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="framer-1wi22ez">
+                        <!--$-->
+                        <div class="ssr-variant hidden-x3ttlk">
+                            <a class="framer-hep0s3 framer-1v6dztv" data-framer-appear-id="hep0s3" data-framer-name="Button" name="Button" href="./">
+                                <div class="framer-1yyd3kd" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                    <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFNlbWlCb2xk;--framer-font-family:&quot;Inter Tight SemiBold&quot;, &quot;Inter Tight SemiBold Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">На главную</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="ssr-variant hidden-743s7m hidden-1sons0x">
+                            <a class="framer-hep0s3 framer-1v6dztv" data-framer-appear-id="hep0s3" data-framer-name="Button" name="Button" href="./" style="opacity:0.001;will-change:transform;transform:translateY(150px)">
+                                <div class="framer-1yyd3kd" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                                    <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFNlbWlCb2xk;--framer-font-family:&quot;Inter Tight SemiBold&quot;, &quot;Inter Tight SemiBold Placeholder&quot;, sans-serif;--framer-font-size:18px;--framer-text-alignment:center;--framer-text-color:rgb(255, 255, 255)" class="framer-text">На главную</p>
+                                </div>
+                            </a>
+                        </div>
+                        <!--/$-->
+                    </div>
+                </div>
+                <div class="framer-xb2ijt" style="opacity:0;transform:none">
+                    <div class="framer-y0zin8">
+                        <div class="framer-seqy9a-container">
+                            <!--$-->
+                            <a class="framer-AkznO framer-5s8ial framer-v-5s8ial framer-1s3b9km" data-framer-name="Variant 1" href="https://wa.me/79618788585" target="_blank" rel="noopener">
+                                <div class="framer-1marcg5" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191));transform:none" data-framer-component-type="RichTextContainer">
+                                    <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IE1lZGl1bQ==;--framer-font-family:&quot;Inter Tight Medium&quot;, &quot;Inter Tight Medium Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191)))" class="framer-text">WA</p>
+                                </div>
+                            </a>
+                            <!--/$-->
+                        </div>
+                        <div class="framer-zd0p2r" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFJlZ3VsYXI=;--framer-font-family:&quot;Inter Tight Regular&quot;, &quot;Inter Tight Regular Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:rgb(237, 237, 237)" class="framer-text">|</p>
+                        </div>
+                        <div class="framer-1u88pwe-container">
+                            <!--$-->
+                            <a class="framer-P2vRx framer-wxtuy5 framer-v-wxtuy5 framer-1080swd" data-framer-name="Variant 1" href="https://t.me/AX_sites/78" target="_blank" rel="noopener">
+                                <div class="framer-yc195b" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191));transform:none" data-framer-component-type="RichTextContainer">
+                                    <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IE1lZGl1bQ==;--framer-font-family:&quot;Inter Tight Medium&quot;, &quot;Inter Tight Medium Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191)))" class="framer-text">TG-канал</p>
+                                </div>
+                            </a>
+                            <!--/$-->
+                        </div>
+                        <div class="framer-vkhd7w" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
+                            <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IFJlZ3VsYXI=;--framer-font-family:&quot;Inter Tight Regular&quot;, &quot;Inter Tight Regular Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:rgb(237, 237, 237)" class="framer-text">|</p>
+                        </div>
+                        <div class="framer-wsabay-container" data-framer-name="tlg-link" name="tlg-link">
+                            <!--$-->
+                            <a name="tlg-link" class="framer-esAUT framer-1sbeafg framer-v-1sbeafg framer-1yccj3r" data-framer-name="Variant 1" href="https://t.me/AX_admins" target="_blank" rel="noopener">
+                                <div class="framer-g46s17" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;--extracted-r6o4lv:var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191));transform:none" data-framer-component-type="RichTextContainer">
+                                    <p style="--font-selector:Q1VTVE9NO0ludGVyIFRpZ2h0IE1lZGl1bQ==;--framer-font-family:&quot;Inter Tight Medium&quot;, &quot;Inter Tight Medium Placeholder&quot;, sans-serif;--framer-font-size:14px;--framer-text-color:var(--extracted-r6o4lv, var(--token-612c5219-e771-4380-9480-d9b4184c0f39, rgb(191, 191, 191)))" class="framer-text">TG</p>
+                                </div>
+                            </a>
+                            <!--/$-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="overlay"></div>
+            <!--/$-->
+        </div>
+        <script>
+            ( () => {
+                function u() {
+                    function n(t, e, i) {
+                        let r = document.createElement("a");
+                        r.href = t,
+                        r.target = i,
+                        r.rel = e,
+                        document.body.appendChild(r),
+                        r.click(),
+                        r.remove()
+                    }
+                    function o(t) {
+                        if (this.dataset.hydrated) {
+                            this.removeEventListener("click", o);
+                            return
+                        }
+                        t.preventDefault(),
+                        t.stopPropagation();
+                        let e = this.getAttribute("href");
+                        if (!e)
+                            return;
+                        if (/Mac|iPod|iPhone|iPad/u.test(navigator.userAgent) ? t.metaKey : t.ctrlKey)
+                            return n(e, "", "_blank");
+                        let r = this.getAttribute("rel") ?? ""
+                          , c = this.getAttribute("target") ?? "";
+                        n(e, r, c)
+                    }
+                    function a(t) {
+                        if (this.dataset.hydrated) {
+                            this.removeEventListener("auxclick", o);
+                            return
+                        }
+                        t.preventDefault(),
+                        t.stopPropagation();
+                        let e = this.getAttribute("href");
+                        e && n(e, "", "_blank")
+                    }
+                    function s(t) {
+                        if (this.dataset.hydrated) {
+                            this.removeEventListener("keydown", s);
+                            return
+                        }
+                        if (t.key !== "Enter")
+                            return;
+                        t.preventDefault(),
+                        t.stopPropagation();
+                        let e = this.getAttribute("href");
+                        if (!e)
+                            return;
+                        let i = this.getAttribute("rel") ?? ""
+                          , r = this.getAttribute("target") ?? "";
+                        n(e, i, r)
+                    }
+                    document.querySelectorAll("[data-nested-link]").forEach(t => {
+                        t instanceof HTMLElement && (t.addEventListener("click", o),
+                        t.addEventListener("auxclick", a),
+                        t.addEventListener("keydown", s))
+                    }
+                    )
+                }
+                return u
+            }
+            )()()
+        </script>
+        <script>
+            ( () => {
+                function i() {
+                    for (let e of document.querySelectorAll("[data-framer-original-sizes]")) {
+                        let t = e.getAttribute("data-framer-original-sizes");
+                        t === "" ? e.removeAttribute("sizes") : e.setAttribute("sizes", t),
+                        e.removeAttribute("data-framer-original-sizes")
+                    }
+                }
+                function a() {
+                    window.__framer_onRewriteBreakpoints = i
+                }
+                return a
+            }
+            )()()
+        </script>
+        <div id="__framer-badge-container"></div>
+        <script>
+            "use strict";
+            var animator = ( () => {
+                var z = Object.defineProperty;
+                var ve = Object.getOwnPropertyDescriptor;
+                var Oe = Object.getOwnPropertyNames;
+                var Se = Object.prototype.hasOwnProperty;
+                var ke = (e, t) => {
+                    for (var n in t)
+                        z(e, n, {
+                            get: t[n],
+                            enumerable: !0
+                        })
+                }
+                  , Pe = (e, t, n, o) => {
+                    if (t && typeof t == "object" || typeof t == "function")
+                        for (let f of Oe(t))
+                            !Se.call(e, f) && f !== n && z(e, f, {
+                                get: () => t[f],
+                                enumerable: !(o = ve(t, f)) || o.enumerable
+                            });
+                    return e
+                }
+                ;
+                var De = e => Pe(z({}, "__esModule", {
+                    value: !0
+                }), e);
+                var nt = {};
+                ke(nt, {
+                    animateAppearEffects: () => Me,
+                    getActiveVariantHash: () => Te,
+                    spring: () => P,
+                    startOptimizedAppearAnimation: () => N
+                });
+                var Ie = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
+                  , W = new Set(Ie);
+                var S = e => e * 1e3
+                  , k = e => e / 1e3;
+                var E = e => e;
+                var H = E;
+                var B = (e, t, n) => n > t ? t : n < e ? e : n;
+                function U(e, t) {
+                    return t ? e * (1e3 / t) : 0
+                }
+                var Ke = 5;
+                function Q(e, t, n) {
+                    let o = Math.max(t - Ke, 0);
+                    return U(n - e(o), t - o)
+                }
+                var L = .001
+                  , Ee = .01
+                  , J = 10
+                  , Ce = .05
+                  , Ve = 1;
+                function ee({duration: e=800, bounce: t=.25, velocity: n=0, mass: o=1}) {
+                    let f, r;
+                    H(e <= S(J), "Spring duration must be 10 seconds or less");
+                    let a = 1 - t;
+                    a = B(Ce, Ve, a),
+                    e = B(Ee, J, k(e)),
+                    a < 1 ? (f = s => {
+                        let p = s * a
+                          , c = p * e
+                          , u = p - n
+                          , l = C(s, a)
+                          , d = Math.exp(-c);
+                        return L - u / l * d
+                    }
+                    ,
+                    r = s => {
+                        let c = s * a * e
+                          , u = c * n + n
+                          , l = Math.pow(a, 2) * Math.pow(s, 2) * e
+                          , d = Math.exp(-c)
+                          , g = C(Math.pow(s, 2), a);
+                        return (-f(s) + L > 0 ? -1 : 1) * ((u - l) * d) / g
+                    }
+                    ) : (f = s => {
+                        let p = Math.exp(-s * e)
+                          , c = (s - n) * e + 1;
+                        return -L + p * c
+                    }
+                    ,
+                    r = s => {
+                        let p = Math.exp(-s * e)
+                          , c = (n - s) * (e * e);
+                        return p * c
+                    }
+                    );
+                    let m = 5 / e
+                      , i = ze(f, r, m);
+                    if (e = S(e),
+                    isNaN(i))
+                        return {
+                            stiffness: 100,
+                            damping: 10,
+                            duration: e
+                        };
+                    {
+                        let s = Math.pow(i, 2) * o;
+                        return {
+                            stiffness: s,
+                            damping: a * 2 * Math.sqrt(o * s),
+                            duration: e
+                        }
+                    }
+                }
+                var $e = 12;
+                function ze(e, t, n) {
+                    let o = n;
+                    for (let f = 1; f < $e; f++)
+                        o = o - e(o) / t(o);
+                    return o
+                }
+                function C(e, t) {
+                    return e * Math.sqrt(1 - t * t)
+                }
+                var Be = ["duration", "bounce"]
+                  , Le = ["stiffness", "damping", "mass"];
+                function te(e, t) {
+                    return t.some(n => e[n] !== void 0)
+                }
+                function Re(e) {
+                    let t = {
+                        velocity: 0,
+                        stiffness: 100,
+                        damping: 10,
+                        mass: 1,
+                        isResolvedFromDuration: !1,
+                        ...e
+                    };
+                    if (!te(e, Le) && te(e, Be)) {
+                        let n = ee(e);
+                        t = {
+                            ...t,
+                            ...n,
+                            mass: 1
+                        },
+                        t.isResolvedFromDuration = !0
+                    }
+                    return t
+                }
+                function P({keyframes: e, restDelta: t, restSpeed: n, ...o}) {
+                    let f = e[0]
+                      , r = e[e.length - 1]
+                      , a = {
+                        done: !1,
+                        value: f
+                    }
+                      , {stiffness: m, damping: i, mass: s, duration: p, velocity: c, isResolvedFromDuration: u} = Re({
+                        ...o,
+                        velocity: -k(o.velocity || 0)
+                    })
+                      , l = c || 0
+                      , d = i / (2 * Math.sqrt(m * s))
+                      , g = r - f
+                      , y = k(Math.sqrt(m / s))
+                      , M = Math.abs(g) < 5;
+                    n || (n = M ? .01 : 2),
+                    t || (t = M ? .005 : .5);
+                    let h;
+                    if (d < 1) {
+                        let x = C(y, d);
+                        h = A => {
+                            let T = Math.exp(-d * y * A);
+                            return r - T * ((l + d * y * g) / x * Math.sin(x * A) + g * Math.cos(x * A))
+                        }
+                    } else if (d === 1)
+                        h = x => r - Math.exp(-y * x) * (g + (l + y * g) * x);
+                    else {
+                        let x = y * Math.sqrt(d * d - 1);
+                        h = A => {
+                            let T = Math.exp(-d * y * A)
+                              , K = Math.min(x * A, 300);
+                            return r - T * ((l + d * y * g) * Math.sinh(K) + x * g * Math.cosh(K)) / x
+                        }
+                    }
+                    return {
+                        calculatedDuration: u && p || null,
+                        next: x => {
+                            let A = h(x);
+                            if (u)
+                                a.done = x >= p;
+                            else {
+                                let T = 0;
+                                d < 1 && (T = x === 0 ? S(l) : Q(h, x, A));
+                                let K = Math.abs(T) <= n
+                                  , be = Math.abs(r - A) <= t;
+                                a.done = K && be
+                            }
+                            return a.value = a.done ? r : A,
+                            a
+                        }
+                    }
+                }
+                var ne = e => Array.isArray(e) && typeof e[0] == "number";
+                var oe = (e, t, n) => {
+                    let o = t - e;
+                    return o === 0 ? 1 : (n - e) / o
+                }
+                ;
+                var Fe = 10
+                  , re = (e, t) => {
+                    let n = ""
+                      , o = Math.max(Math.round(t / Fe), 2);
+                    for (let f = 0; f < o; f++)
+                        n += e(oe(0, o - 1, f)) + ", ";
+                    return `linear(${n.substring(0, n.length - 2)})`
+                }
+                ;
+                function ie(e) {
+                    let t;
+                    return () => (t === void 0 && (t = e()),
+                    t)
+                }
+                var se = {
+                    linearEasing: void 0
+                };
+                function ae(e, t) {
+                    let n = ie(e);
+                    return () => {
+                        var o;
+                        return (o = se[t]) !== null && o !== void 0 ? o : n()
+                    }
+                }
+                var pe = ae( () => {
+                    try {
+                        document.createElement("div").animate({
+                            opacity: 0
+                        }, {
+                            easing: "linear(0, 1)"
+                        })
+                    } catch {
+                        return !1
+                    }
+                    return !0
+                }
+                , "linearEasing");
+                var D = ([e,t,n,o]) => `cubic-bezier(${e}, ${t}, ${n}, ${o})`
+                  , fe = {
+                    linear: "linear",
+                    ease: "ease",
+                    easeIn: "ease-in",
+                    easeOut: "ease-out",
+                    easeInOut: "ease-in-out",
+                    circIn: D([0, .65, .55, 1]),
+                    circOut: D([.55, 0, 1, .45]),
+                    backIn: D([.31, .01, .66, -.59]),
+                    backOut: D([.33, 1.53, .69, .99])
+                };
+                function R(e, t) {
+                    if (e)
+                        return typeof e == "function" && pe() ? re(e, t) : ne(e) ? D(e) : Array.isArray(e) ? e.map(n => R(n, t) || fe.easeOut) : fe[e]
+                }
+                function F(e, t, n, {delay: o=0, duration: f=300, repeat: r=0, repeatType: a="loop", ease: m, times: i}={}) {
+                    let s = {
+                        [t]: n
+                    };
+                    i && (s.offset = i);
+                    let p = R(m, f);
+                    return Array.isArray(p) && (s.easing = p),
+                    e.animate(s, {
+                        delay: o,
+                        duration: f,
+                        easing: Array.isArray(p) ? "linear" : p,
+                        fill: "both",
+                        iterations: r + 1,
+                        direction: a === "reverse" ? "alternate" : "normal"
+                    })
+                }
+                var me = e => e.replace(/([a-z])([A-Z])/gu, "$1-$2").toLowerCase();
+                var X = "framerAppearId"
+                  , ce = "data-" + me(X);
+                function ue(e) {
+                    return e.props[ce]
+                }
+                var b = (e, t) => {
+                    let n = W.has(t) ? "transform" : t;
+                    return `${e}: ${n}`
+                }
+                ;
+                var w = new Map
+                  , v = new Map;
+                function Y(e, t, n) {
+                    var o;
+                    let f = b(e, t)
+                      , r = w.get(f);
+                    if (!r)
+                        return null;
+                    let {animation: a, startTime: m} = r;
+                    function i() {
+                        var s;
+                        (s = window.MotionCancelOptimisedAnimation) === null || s === void 0 || s.call(window, e, t, n)
+                    }
+                    return a.onfinish = i,
+                    m === null || !((o = window.MotionHandoffIsComplete) === null || o === void 0) && o.call(window, e) ? (i(),
+                    null) : m
+                }
+                var V, O, j = new Set;
+                function Xe() {
+                    j.forEach(e => {
+                        e.animation.play(),
+                        e.animation.startTime = e.startTime
+                    }
+                    ),
+                    j.clear()
+                }
+                function N(e, t, n, o, f) {
+                    if (window.MotionIsMounted)
+                        return;
+                    let r = e.dataset[X];
+                    if (!r)
+                        return;
+                    window.MotionHandoffAnimation = Y;
+                    let a = b(r, t);
+                    O || (O = F(e, t, [n[0], n[0]], {
+                        duration: 1e4,
+                        ease: "linear"
+                    }),
+                    w.set(a, {
+                        animation: O,
+                        startTime: null
+                    }),
+                    window.MotionHandoffAnimation = Y,
+                    window.MotionHasOptimisedAnimation = (i, s) => {
+                        if (!i)
+                            return !1;
+                        if (!s)
+                            return v.has(i);
+                        let p = b(i, s);
+                        return !!w.get(p)
+                    }
+                    ,
+                    window.MotionHandoffMarkAsComplete = i => {
+                        v.has(i) && v.set(i, !0)
+                    }
+                    ,
+                    window.MotionHandoffIsComplete = i => v.get(i) === !0,
+                    window.MotionCancelOptimisedAnimation = (i, s, p, c) => {
+                        let u = b(i, s)
+                          , l = w.get(u);
+                        l && (p && c === void 0 ? p.postRender( () => {
+                            p.postRender( () => {
+                                l.animation.cancel()
+                            }
+                            )
+                        }
+                        ) : l.animation.cancel(),
+                        p && c ? (j.add(l),
+                        p.render(Xe)) : (w.delete(u),
+                        w.size || (window.MotionCancelOptimisedAnimation = void 0)))
+                    }
+                    ,
+                    window.MotionCheckAppearSync = (i, s, p) => {
+                        var c, u;
+                        let l = ue(i);
+                        if (!l)
+                            return;
+                        let d = (c = window.MotionHasOptimisedAnimation) === null || c === void 0 ? void 0 : c.call(window, l, s)
+                          , g = (u = i.props.values) === null || u === void 0 ? void 0 : u[s];
+                        if (!d || !g)
+                            return;
+                        let y = p.on("change", M => {
+                            var h;
+                            g.get() !== M && ((h = window.MotionCancelOptimisedAnimation) === null || h === void 0 || h.call(window, l, s),
+                            y())
+                        }
+                        );
+                        return y
+                    }
+                    );
+                    let m = () => {
+                        O.cancel();
+                        let i = F(e, t, n, o);
+                        V === void 0 && (V = performance.now()),
+                        i.startTime = V,
+                        w.set(a, {
+                            animation: i,
+                            startTime: V
+                        }),
+                        f && f(i)
+                    }
+                    ;
+                    v.set(r, !1),
+                    O.ready ? O.ready.then(m).catch(E) : m()
+                }
+                var G = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
+                  , Ye = {
+                    x: "translateX",
+                    y: "translateY",
+                    z: "translateZ",
+                    transformPerspective: "perspective"
+                }
+                  , je = {
+                    translateX: "px",
+                    translateY: "px",
+                    translateZ: "px",
+                    x: "px",
+                    y: "px",
+                    z: "px",
+                    perspective: "px",
+                    transformPerspective: "px",
+                    rotate: "deg",
+                    rotateX: "deg",
+                    rotateY: "deg"
+                };
+                function le(e, t) {
+                    let n = je[e];
+                    return !n || typeof t == "string" && t.endsWith(n) ? t : `${t}${n}`
+                }
+                function _(e) {
+                    return G.includes(e)
+                }
+                var Ne = (e, t) => G.indexOf(e) - G.indexOf(t);
+                function de({transform: e, transformKeys: t}, n) {
+                    let o = {}
+                      , f = !0
+                      , r = "";
+                    t.sort(Ne);
+                    for (let a of t) {
+                        let m = e[a]
+                          , i = !0;
+                        typeof m == "number" ? i = m === (a.startsWith("scale") ? 1 : 0) : i = parseFloat(m) === 0,
+                        i || (f = !1,
+                        r += `${Ye[a] || a}(${e[a]}) `),
+                        n && (o[a] = e[a])
+                    }
+                    return r = r.trim(),
+                    n ? r = n(o, r) : f && (r = "none"),
+                    r
+                }
+                function Z(e, t) {
+                    let n = new Set(Object.keys(e));
+                    for (let o in t)
+                        n.add(o);
+                    return Array.from(n)
+                }
+                function q(e, t) {
+                    let n = t - e.length;
+                    if (n <= 0)
+                        return e;
+                    let o = new Array(n).fill(e[e.length - 1]);
+                    return e.concat(o)
+                }
+                function I(e) {
+                    return e * 1e3
+                }
+                var ye = {
+                    duration: .001
+                }
+                  , $ = {
+                    opacity: 1,
+                    scale: 1,
+                    translateX: 0,
+                    translateY: 0,
+                    translateZ: 0,
+                    x: 0,
+                    y: 0,
+                    z: 0,
+                    rotate: 0,
+                    rotateX: 0,
+                    rotateY: 0
+                };
+                function Ae(e, t, n, o, f) {
+                    return n.delay && (n.delay = I(n.delay)),
+                    n.type === "spring" ? _e(e, t, n, o, f) : qe(e, t, n, o, f)
+                }
+                function Ge(e, t, n) {
+                    let o = {}
+                      , f = 0
+                      , r = 0;
+                    for (let a of Z(e, t)) {
+                        let m = e[a] ?? $[a]
+                          , i = t[a] ?? $[a];
+                        if (m === void 0 || i === void 0 || a !== "transformPerspective" && m === i)
+                            continue;
+                        a === "transformPerspective" && (o[a] = [m, i]);
+                        let s = Je(m, i, n)
+                          , {duration: p, keyframes: c} = s;
+                        p === void 0 || c === void 0 || (p > f && (f = p,
+                        r = c.length),
+                        o[a] = c)
+                    }
+                    return {
+                        keyframeValuesByProps: o,
+                        longestDuration: f,
+                        longestLength: r
+                    }
+                }
+                function _e(e, t, n, o, f) {
+                    let r = {}
+                      , {keyframeValuesByProps: a, longestDuration: m, longestLength: i} = Ge(e, t, n);
+                    if (!i)
+                        return r;
+                    let s = {
+                        ease: "linear",
+                        duration: m,
+                        delay: n.delay
+                    }
+                      , p = f ? ye : s
+                      , c = {};
+                    for (let[l,d] of Object.entries(a))
+                        _(l) ? c[l] = q(d, i) : r[l] = {
+                            keyframes: q(d, i),
+                            options: l === "opacity" ? s : p
+                        };
+                    let u = we(c, o);
+                    return u && (r.transform = {
+                        keyframes: u,
+                        options: p
+                    }),
+                    r
+                }
+                function Ze(e) {
+                    let {type: t, duration: n, ...o} = e;
+                    return {
+                        duration: I(n),
+                        ...o
+                    }
+                }
+                function qe(e, t, n, o, f) {
+                    let r = Ze(n);
+                    if (!r)
+                        return;
+                    let a = {}
+                      , m = f ? ye : r
+                      , i = {};
+                    for (let p of Z(e, t)) {
+                        let c = e[p] ?? $[p]
+                          , u = t[p] ?? $[p];
+                        c === void 0 || u === void 0 || p !== "transformPerspective" && c === u || (_(p) ? i[p] = [c, u] : a[p] = {
+                            keyframes: [c, u],
+                            options: p === "opacity" ? r : m
+                        })
+                    }
+                    let s = we(i, o);
+                    return s && (a.transform = {
+                        keyframes: s,
+                        options: m
+                    }),
+                    a
+                }
+                var We = ["duration", "bounce"]
+                  , He = ["stiffness", "damping", "mass"];
+                function he(e) {
+                    return He.some(t => t in e) ? !1 : We.some(t => t in e)
+                }
+                function Ue(e, t, n) {
+                    return he(n) ? `${e}-${t}-${n.duration}-${n.bounce}` : `${e}-${t}-${n.damping}-${n.stiffness}-${n.mass}`
+                }
+                function Qe(e) {
+                    return he(e) ? {
+                        ...e,
+                        duration: I(e.duration)
+                    } : e
+                }
+                var xe = new Map
+                  , ge = 10;
+                function Je(e, t, n) {
+                    let o = Ue(e, t, n)
+                      , f = xe.get(o);
+                    if (f)
+                        return f;
+                    let r = [e, t]
+                      , a = P({
+                        ...Qe(n),
+                        keyframes: r
+                    })
+                      , m = {
+                        done: !1,
+                        value: r[0]
+                    }
+                      , i = []
+                      , s = 0;
+                    for (; !m.done && s < I(10); )
+                        m = a.next(s),
+                        i.push(m.value),
+                        s += ge;
+                    r = i;
+                    let p = s - ge
+                      , u = {
+                        keyframes: r,
+                        duration: p,
+                        ease: "linear"
+                    };
+                    return xe.set(o, u),
+                    u
+                }
+                function we(e, t) {
+                    let n = []
+                      , o = Object.values(e)[0]?.length;
+                    if (!o)
+                        return;
+                    let f = Object.keys(e);
+                    for (let r = 0; r < o; r++) {
+                        let a = {};
+                        for (let[i,s] of Object.entries(e)) {
+                            let p = s[r];
+                            p !== void 0 && (a[i] = le(i, p))
+                        }
+                        let m = de({
+                            transform: a,
+                            transformKeys: f
+                        }, t);
+                        n.push(m)
+                    }
+                    return n
+                }
+                function et(e, t) {
+                    if (!t)
+                        for (let n in e) {
+                            let o = e[n];
+                            return o?.legacy === !0 ? o : void 0
+                        }
+                }
+                function Me(e, t, n, o, f, r) {
+                    for (let[a,m] of Object.entries(e)) {
+                        let i = r ? m[r] : void 0;
+                        if (i === null || !i && m.default === null)
+                            continue;
+                        let s = i ?? m.default ?? et(m, r);
+                        if (!s)
+                            continue;
+                        let {initial: p, animate: c, transformTemplate: u} = s;
+                        if (!p || !c)
+                            continue;
+                        let {transition: l, ...d} = c
+                          , g = Ae(p, d, l, tt(u, o), f);
+                        if (!g)
+                            continue;
+                        let y = {}
+                          , M = {};
+                        for (let[x,A] of Object.entries(g))
+                            y[x] = A.keyframes,
+                            M[x] = A.options;
+                        let h = r ? `:not(.hidden-${r}) ` : "";
+                        t(`${h}[${n}="${a}"]`, y, M)
+                    }
+                }
+                function tt(e, t) {
+                    if (!(!e || !t))
+                        return (n, o) => e.replace(t, o)
+                }
+                function Te(e) {
+                    return e ? e.find(n => n.mediaQuery ? window.matchMedia(n.mediaQuery).matches === !0 : !1)?.hash : void 0
+                }
+                return De(nt);
+            }
+            )();
+        </script>
+        <script type="framer/appear" id="__framer__appearAnimationsContent">
+            {"hep0s3":{"default":null,"743s7m":null,"x3ttlk":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":2.5,"duration":0.5,"type":"spring"},"x":0,"y":0}}}}
+        </script>
+        <script type="framer/appear" id="__framer__breakpoints">
+            [{"hash":"1sons0x","mediaQuery":"(min-width: 1200px)"},{"hash":"743s7m","mediaQuery":"(min-width: 810px) and (max-width: 1199px)"},{"hash":"x3ttlk","mediaQuery":"(max-width: 809px)"}]
+        </script>
+        <script data-framer-appear-animation="no-preference">
+            ( () => {
+                function s(r, n, t) {
+                    window.__framer_disable_appear_effects_optimization__ || typeof animator > "u" || requestAnimationFrame( () => {
+                        performance.mark("framer-appear-start"),
+                        animator.animateAppearEffects(JSON.parse(window.__framer__appearAnimationsContent.text), (i, o, p) => {
+                            let e = document.querySelector(i);
+                            if (e)
+                                for (let[a,m] of Object.entries(o))
+                                    animator.startOptimizedAppearAnimation(e, a, m, p[a])
+                        }
+                        , r, n, t && window.matchMedia("(prefers-reduced-motion:reduce)").matches === !0, animator.getActiveVariantHash(JSON.parse(window.__framer__breakpoints.text))),
+                        performance.mark("framer-appear-end"),
+                        performance.measure("framer-appear", "framer-appear-start", "framer-appear-end")
+                    }
+                    )
+                }
+                return s
+            }
+            )()("data-framer-appear-id", "__Appear_Animation_Transform__", false)
+        </script>
+        <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.MQQSZNMR.mjs"></script>
+        <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true"></div>
+        <!-- Start of bodyEnd -->
+        <!-- End of bodyEnd -->
+    </body>
+</html>
