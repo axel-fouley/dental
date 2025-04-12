@@ -5,10 +5,10 @@
         <!-- Start of headStart -->
         <!-- End of headStart -->
         <meta name="viewport" content="width=device-width">
-        <meta name="generator" content="Framer cf4c6d7">
+        <meta name="generator" content="Framer 0c5492c">
         <title>Лидогенерация для стоматологий — стабильный поток пациентов под ключ!</title>
         <meta name="description" content="Привлечём пациентов на ключевые услуги вашей стоматологии: виниры, импланты, брекеты и др. Полный цикл лидогенерации от анализа до рекламы">
-        <meta name="framer-search-index" content="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/searchIndex-L7KTcUaDGhxf.json">
+        <meta name="framer-search-index" content="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/searchIndex-QnZ_PF7rEueB.json">
         <link href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png" rel="icon" media="(prefers-color-scheme: light)">
         <link href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png" rel="icon" media="(prefers-color-scheme: dark)">
         <link rel="apple-touch-icon" href="https://framerusercontent.com/images/lrW6GhlFPZtclicbjmv2tdvI.png">
@@ -42,7 +42,7 @@
                 }
             }
         </style>
-        <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-nrlNQ PropertyOverrides framer-Y6EU4 framer-8JwQB framer-iuZBz framer-Y1n9I framer-H7AYJ framer-MBC4e">
+        <style data-framer-css-ssr-minified data-framer-components="framer-lib-cursors-host framer-aUOY9 PropertyOverrides framer-Y6EU4 framer-8JwQB framer-iuZBz framer-Y1n9I framer-H7AYJ framer-MBC4e">
             html,body,#main {
                 margin: 0;
                 padding: 0;
@@ -408,7 +408,7 @@
                 --text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration)))
             }
 
-            p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,ol.framer-text,ul.framer-text {
+            p.framer-text,div.framer-text,figure.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,ol.framer-text,ul.framer-text {
                 margin: 0;
                 padding: 0
             }
@@ -431,6 +431,13 @@
                 font-feature-settings: var(--framer-font-open-type-features, initial);
                 font-variation-settings: var(--framer-font-variation-axes, normal);
                 text-wrap: var(--framer-text-wrap-override, var(--framer-text-wrap))
+            }
+
+            @supports not (color: color(display-p3 1 1 1)) {
+                p.framer-text,div.framer-text,h1.framer-text,h2.framer-text,h3.framer-text,h4.framer-text,h5.framer-text,h6.framer-text,li.framer-text,ol.framer-text,ul.framer-text,span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))));
+                    -webkit-text-stroke-color: var(--framer-text-stroke-color-rgb, var(--framer-text-stroke-color, initial))
+                }
             }
 
             .framer-fit-text .framer-text {
@@ -459,7 +466,7 @@
                 font-variation-settings: var(--framer-blockquote-font-variation-axes-bold-italic, var(--framer-font-variation-axes-bold-italic))
             }
 
-            p.framer-text:not(:first-child),div.framer-text:not(:first-child),h1.framer-text:not(:first-child),h2.framer-text:not(:first-child),h3.framer-text:not(:first-child),h4.framer-text:not(:first-child),h5.framer-text:not(:first-child),h6.framer-text:not(:first-child),ol.framer-text:not(:first-child),ul.framer-text:not(:first-child),blockquote.framer-text:not(:first-child),table.framer-text:not(:first-child),.framer-image.framer-text:not(:first-child) {
+            p.framer-text:not(:first-child),div.framer-text:not(:first-child),h1.framer-text:not(:first-child),h2.framer-text:not(:first-child),h3.framer-text:not(:first-child),h4.framer-text:not(:first-child),h5.framer-text:not(:first-child),h6.framer-text:not(:first-child),ol.framer-text:not(:first-child),ul.framer-text:not(:first-child),blockquote.framer-text:not(:first-child),table.framer-text:not(:first-child),figure.framer-text:not(:first-child),.framer-image.framer-text:not(:first-child) {
                 margin-top: var(--framer-blockquote-paragraph-spacing, var(--framer-paragraph-spacing, 0))
             }
 
@@ -486,6 +493,12 @@
                 line-height: var(--framer-blockquote-line-height, var(--framer-line-height, 1.2em))
             }
 
+            @supports not (color: color(display-p3 1 1 1)) {
+                code.framer-text,code.framer-text span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+                }
+            }
+
             blockquote.framer-text {
                 margin-block-start:initial;margin-block-end:initial;margin-inline-start:initial;margin-inline-end:initial;unicode-bidi: initial
             }
@@ -501,12 +514,24 @@
                 cursor: var(--framer-custom-cursors, pointer)
             }
 
+            @supports not (color: color(display-p3 1 1 1)) {
+                a.framer-text,a.framer-text span.framer-text:not([data-text-fill]),span.framer-text[data-nested-link],span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+                }
+            }
+
             code.framer-text a.framer-text,code.framer-text a.framer-text span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link],code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
                 font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
                 font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
                 font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
                 color: var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
                 font-size: calc(var(--framer-blockquote-font-size, var(--framer-font-size, 16px)) * var(--framer-font-size-scale, 1))
+            }
+
+            @supports not (color: color(display-p3 1 1 1)) {
+                code.framer-text a.framer-text,code.framer-text a.framer-text span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link],code.framer-text span.framer-text[data-nested-link] span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+                }
             }
 
             a.framer-text:hover,a.framer-text:hover span.framer-text:not([data-text-fill]),span.framer-text[data-nested-link]:hover,span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
@@ -519,12 +544,24 @@
                 text-decoration: var(--framer-link-hover-text-decoration, var(--framer-blockquote-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
             }
 
+            @supports not (color: color(display-p3 1 1 1)) {
+                a.framer-text:hover,a.framer-text:hover span.framer-text:not([data-text-fill]),span.framer-text[data-nested-link]:hover,span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+                }
+            }
+
             code.framer-text a.framer-text:hover,code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link]:hover,code.framer-text span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
                 font-family: var(var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif)));
                 font-style: var(--framer-blockquote-font-style, var(--framer-code-font-style, var(--framer-font-style, normal)));
                 font-weight: var(--framer-blockquote-font-weight, var(--framer-code-font-weight, var(--framer-font-weight, 400)));
                 color: var(--framer-link-hover-text-color, var(--framer-blockquote-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
                 font-size: calc(var(--framer-link-hover-font-size, var(--framer-blockquote-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            }
+
+            @supports not (color: color(display-p3 1 1 1)) {
+                code.framer-text a.framer-text:hover,code.framer-text a.framer-text:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-nested-link]:hover,code.framer-text span.framer-text[data-nested-link]:hover span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-blockquote-text-color-rgb, var(--framer-blockquote-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+                }
             }
 
             a.framer-text[data-framer-page-link-current],a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current],span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
@@ -537,12 +574,24 @@
                 text-decoration: var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none)))
             }
 
+            @supports not (color: color(display-p3 1 1 1)) {
+                a.framer-text[data-framer-page-link-current],a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current],span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))
+                }
+            }
+
             code.framer-text a.framer-text[data-framer-page-link-current],code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current],code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
                 font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
                 font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
                 font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
                 color: var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000))));
                 font-size: calc(var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px))) * var(--framer-font-size-scale, 1))
+            }
+
+            @supports not (color: color(display-p3 1 1 1)) {
+                code.framer-text a.framer-text[data-framer-page-link-current],code.framer-text a.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current],code.framer-text span.framer-text[data-framer-page-link-current] span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))
+                }
             }
 
             a.framer-text[data-framer-page-link-current]:hover,a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current]:hover,span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
@@ -555,12 +604,24 @@
                 text-decoration: var(--framer-link-hover-text-decoration, var(--framer-link-current-text-decoration, var(--framer-link-text-decoration, var(--framer-text-decoration, none))))
             }
 
+            @supports not (color: color(display-p3 1 1 1)) {
+                a.framer-text[data-framer-page-link-current]:hover,a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),span.framer-text[data-framer-page-link-current]:hover,span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))))
+                }
+            }
+
             code.framer-text a.framer-text[data-framer-page-link-current]:hover,code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current]:hover,code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
                 font-family: var(--framer-code-font-family, var(--framer-font-family, Inter, Inter Placeholder, sans-serif));
                 font-style: var(--framer-code-font-style, var(--framer-font-style, normal));
                 font-weight: var(--framer-code-font-weight, var(--framer-font-weight, 400));
                 color: var(--framer-link-hover-text-color, var(--framer-link-current-text-color, var(--framer-link-text-color, var(--framer-code-text-color, var(--framer-text-color, #000)))));
                 font-size: calc(var(--framer-link-hover-font-size, var(--framer-link-current-font-size, var(--framer-link-font-size, var(--framer-font-size, 16px)))) * var(--framer-font-size-scale, 1))
+            }
+
+            @supports not (color: color(display-p3 1 1 1)) {
+                code.framer-text a.framer-text[data-framer-page-link-current]:hover,code.framer-text a.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]),code.framer-text span.framer-text[data-framer-page-link-current]:hover,code.framer-text span.framer-text[data-framer-page-link-current]:hover span.framer-text:not([data-text-fill]) {
+                    color:var(--framer-link-hover-text-color-rgb, var(--framer-link-hover-text-color, var(--framer-link-current-text-color-rgb, var(--framer-link-current-text-color, var(--framer-link-text-color-rgb, var(--framer-link-text-color, var(--framer-code-text-color-rgb, var(--framer-code-text-color, var(--framer-text-color-rgb, var(--framer-text-color, #000))))))))))
+                }
             }
 
             .framer-image.framer-text {
@@ -588,29 +649,63 @@
             }
 
             ul.framer-text,ol.framer-text {
-                display: table;
-                width: 100%
+                padding-left: 3ch;
+                position: relative
             }
 
             li.framer-text {
-                display: table-row;
                 counter-increment: list-item;
                 list-style: none
             }
 
             ol.framer-text>li.framer-text:before {
-                display: table-cell;
-                width: 2.25ch;
-                box-sizing: border-box;
-                padding-inline-end:.75ch;content: counter(list-item,var(--list-style-type)) ".";
-                white-space: nowrap
+                position: absolute;
+                left: 0;
+                content: counter(list-item,var(--list-style-type)) ".";
+                font-variant-numeric: tabular-nums
+            }
+
+            ol.framer-text>li.framer-text:nth-last-child(n+100),ol.framer-text>li.framer-text:nth-last-child(n+100)~li {
+                padding-left: 1ch
+            }
+
+            ol.framer-text>li.framer-text:nth-last-child(n+1000),ol.framer-text>li.framer-text:nth-last-child(n+1000)~li {
+                padding-left: 2ch
+            }
+
+            ol.framer-text>li.framer-text:nth-last-child(n+10000),ol.framer-text>li.framer-text:nth-last-child(n+10000)~li {
+                padding-left: 3ch
+            }
+
+            ol.framer-text>li.framer-text:nth-last-child(n+100000),ol.framer-text>li.framer-text:nth-last-child(n+100000)~li {
+                padding-left: 4ch
+            }
+
+            ol.framer-text>li.framer-text:nth-last-child(n+1000000),ol.framer-text>li.framer-text:nth-last-child(n+1000000)~li {
+                padding-left: 5ch
             }
 
             ul.framer-text>li.framer-text:before {
-                display: table-cell;
-                width: 2.25ch;
-                box-sizing: border-box;
-                padding-inline-end:.75ch;content: "\2022"
+                position: absolute;
+                left: 0;
+                content: "\2022"
+            }
+
+            .framer-table-wrapper {
+                overflow-x: auto
+            }
+
+            table.framer-text,.framer-table-wrapper table.framer-text {
+                border-collapse: separate;
+                border-spacing: 0;
+                table-layout: auto;
+                word-break: normal;
+                width: 100%
+            }
+
+            td.framer-text,th.framer-text {
+                min-width: 16ch;
+                vertical-align: top
             }
 
             .framer-text-module[style*=aspect-ratio]>:first-child {
@@ -914,11 +1009,11 @@
                 pointer-events: none!important
             }
 
-            .framer-nrlNQ.framer-lux5qc,.framer-nrlNQ .framer-lux5qc {
+            .framer-aUOY9.framer-lux5qc,.framer-aUOY9 .framer-lux5qc {
                 display: block
             }
 
-            .framer-nrlNQ.framer-72rtr7 {
+            .framer-aUOY9.framer-72rtr7 {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -934,7 +1029,7 @@
                 width: 1200px
             }
 
-            .framer-nrlNQ .framer-hupp91 {
+            .framer-aUOY9 .framer-hupp91 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -951,7 +1046,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-11xv83k {
+            .framer-aUOY9 .framer-11xv83k {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -967,7 +1062,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-nvom3v {
+            .framer-aUOY9 .framer-nvom3v {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -985,7 +1080,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-715jag {
+            .framer-aUOY9 .framer-715jag {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1000,7 +1095,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-uza3ek {
+            .framer-aUOY9 .framer-uza3ek {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1016,7 +1111,7 @@
                 width: min-content
             }
 
-            .framer-nrlNQ .framer-o4v84a {
+            .framer-aUOY9 .framer-o4v84a {
                 align-content: flex-start;
                 align-items: flex-start;
                 aspect-ratio: 1 / 1;
@@ -1034,7 +1129,7 @@
                 width: 60px
             }
 
-            .framer-nrlNQ .framer-mb85dh {
+            .framer-aUOY9 .framer-mb85dh {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1050,7 +1145,7 @@
                 width: min-content
             }
 
-            .framer-nrlNQ .framer-2zl19q,.framer-nrlNQ .framer-jbv9ou,.framer-nrlNQ .framer-1h80f3s {
+            .framer-aUOY9 .framer-2zl19q,.framer-aUOY9 .framer-jbv9ou,.framer-aUOY9 .framer-1h80f3s {
                 flex: none;
                 height: auto;
                 position: relative;
@@ -1058,7 +1153,7 @@
                 width: auto
             }
 
-            .framer-nrlNQ .framer-1e87lr6-container {
+            .framer-aUOY9 .framer-1e87lr6-container {
                 aspect-ratio: 1 / 1;
                 flex: none;
                 height: var(--framer-aspect-ratio-supported, 60px);
@@ -1066,7 +1161,7 @@
                 width: 60px
             }
 
-            .framer-nrlNQ.framer-dz270j,.framer-nrlNQ.framer-1o6p7si,.framer-nrlNQ.framer-19ll7q8,.framer-nrlNQ.framer-1iabpw9 {
+            .framer-aUOY9.framer-dz270j,.framer-aUOY9.framer-1o6p7si,.framer-aUOY9.framer-19ll7q8,.framer-aUOY9.framer-1iabpw9 {
                 background-color: #f5f5f5e6;
                 inset: 0;
                 position: fixed;
@@ -1074,7 +1169,7 @@
                 z-index: 5
             }
 
-            .framer-nrlNQ.framer-m6m365 {
+            .framer-aUOY9.framer-m6m365 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1096,7 +1191,7 @@
                 z-index: 5
             }
 
-            .framer-nrlNQ .framer-p2nei7-container {
+            .framer-aUOY9 .framer-p2nei7-container {
                 flex: none;
                 height: auto;
                 left: 0;
@@ -1107,7 +1202,7 @@
                 z-index: 1
             }
 
-            .framer-nrlNQ .framer-154j2l-container,.framer-nrlNQ .framer-1bl2px8-container,.framer-nrlNQ .framer-1ugisir-container,.framer-nrlNQ .framer-yqr0t4-container {
+            .framer-aUOY9 .framer-154j2l-container,.framer-aUOY9 .framer-1bl2px8-container,.framer-aUOY9 .framer-1ugisir-container,.framer-aUOY9 .framer-yqr0t4-container {
                 aspect-ratio: 1 / 1;
                 cursor: pointer;
                 flex: none;
@@ -1119,7 +1214,7 @@
                 z-index: 4
             }
 
-            .framer-nrlNQ .framer-1q37574 {
+            .framer-aUOY9 .framer-1q37574 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1136,7 +1231,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-34jq0w {
+            .framer-aUOY9 .framer-34jq0w {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -1153,7 +1248,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-r09xi {
+            .framer-aUOY9 .framer-r09xi {
                 align-content: center;
                 align-items: center;
                 align-self: stretch;
@@ -1170,7 +1265,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-9hvrsy {
+            .framer-aUOY9 .framer-9hvrsy {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1185,7 +1280,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-fdgh14 {
+            .framer-aUOY9 .framer-fdgh14 {
                 --framer-link-text-color: #0099ff;
                 --framer-link-text-decoration: underline;
                 --framer-paragraph-spacing: 0px;
@@ -1199,7 +1294,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-sc4cjo,.framer-nrlNQ .framer-hpbagy,.framer-nrlNQ .framer-1l6paij {
+            .framer-aUOY9 .framer-sc4cjo,.framer-aUOY9 .framer-hpbagy,.framer-aUOY9 .framer-1l6paij {
                 --framer-paragraph-spacing: 0px;
                 flex: none;
                 height: auto;
@@ -1211,7 +1306,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-1izrjyr {
+            .framer-aUOY9 .framer-1izrjyr {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1227,14 +1322,14 @@
                 width: min-content
             }
 
-            .framer-nrlNQ .framer-3vgal1-container,.framer-nrlNQ .framer-9s4q7w-container,.framer-nrlNQ .framer-ocd46u-container,.framer-nrlNQ .framer-5dxtb7-container {
+            .framer-aUOY9 .framer-3vgal1-container,.framer-aUOY9 .framer-9s4q7w-container,.framer-aUOY9 .framer-ocd46u-container,.framer-aUOY9 .framer-5dxtb7-container {
                 flex: none;
                 height: auto;
                 position: relative;
                 width: auto
             }
 
-            .framer-nrlNQ.framer-1pysvnj,.framer-nrlNQ.framer-ule2sx {
+            .framer-aUOY9.framer-1pysvnj,.framer-aUOY9.framer-ule2sx {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1254,18 +1349,18 @@
                 z-index: 5
             }
 
-            .framer-nrlNQ .framer-1iwt0d-container,.framer-nrlNQ .framer-1ot1o1x-container {
+            .framer-aUOY9 .framer-1iwt0d-container,.framer-aUOY9 .framer-1ot1o1x-container {
                 flex: none;
                 height: auto;
                 position: relative;
                 width: 350px
             }
 
-            .framer-nrlNQ .framer-fnarkm {
+            .framer-aUOY9 .framer-fnarkm {
                 align-content: center;
                 align-items: center;
                 border-radius: 90px;
-                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #00000010;
+                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #0000000f;
                 display: flex;
                 flex: 1 0 0px;
                 flex-direction: column;
@@ -1279,7 +1374,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-eq8d78 {
+            .framer-aUOY9 .framer-eq8d78 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1295,12 +1390,12 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-deixiy {
+            .framer-aUOY9 .framer-deixiy {
                 align-content: center;
                 align-items: center;
                 background-color: var(--token-48f089df-a422-4389-ab7f-76dc5ff60e7e, #f0fbff);
                 border-radius: 90px;
-                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #00000010;
+                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #0000000f;
                 display: flex;
                 flex: none;
                 flex-direction: row;
@@ -1314,7 +1409,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-14308p5 {
+            .framer-aUOY9 .framer-14308p5 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1330,7 +1425,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-1azlrud {
+            .framer-aUOY9 .framer-1azlrud {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1346,12 +1441,12 @@
                 width: 50%
             }
 
-            .framer-nrlNQ .framer-19fpqfh {
+            .framer-aUOY9 .framer-19fpqfh {
                 align-content: center;
                 align-items: center;
                 aspect-ratio: 1 / 1;
                 border-radius: 200px;
-                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #00000010;
+                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #0000000f;
                 display: flex;
                 flex: none;
                 flex-direction: row;
@@ -1365,7 +1460,7 @@
                 width: var(--framer-aspect-ratio-supported, 400px)
             }
 
-            .framer-nrlNQ .framer-12z676r {
+            .framer-aUOY9 .framer-12z676r {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1381,7 +1476,7 @@
                 width: 50%
             }
 
-            .framer-nrlNQ .framer-vdmxlc {
+            .framer-aUOY9 .framer-vdmxlc {
                 flex: none;
                 height: auto;
                 position: relative;
@@ -1391,7 +1486,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-1m8bdvi {
+            .framer-aUOY9 .framer-1m8bdvi {
                 --framer-paragraph-spacing: 8px;
                 flex: none;
                 height: auto;
@@ -1402,7 +1497,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-nf723z {
+            .framer-aUOY9 .framer-nf723z {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1419,7 +1514,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-p4ch62-container {
+            .framer-aUOY9 .framer-p4ch62-container {
                 flex: none;
                 height: auto;
                 max-width: 1200px;
@@ -1427,7 +1522,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-1qi6w1m {
+            .framer-aUOY9 .framer-1qi6w1m {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1443,7 +1538,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-1drq1o8 {
+            .framer-aUOY9 .framer-1drq1o8 {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1459,7 +1554,7 @@
                 width: 50%
             }
 
-            .framer-nrlNQ .framer-1ggikxe {
+            .framer-aUOY9 .framer-1ggikxe {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1475,7 +1570,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-vqkvqt {
+            .framer-aUOY9 .framer-vqkvqt {
                 flex: 1 0 0px;
                 height: auto;
                 position: relative;
@@ -1485,7 +1580,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-h6p9yy {
+            .framer-aUOY9 .framer-h6p9yy {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1501,7 +1596,7 @@
                 width: 50%
             }
 
-            .framer-nrlNQ.framer-1rn4jjx {
+            .framer-aUOY9.framer-1rn4jjx {
                 flex: none;
                 height: 308px;
                 left: calc(50.00000000000002% - 350px / 2);
@@ -1512,7 +1607,7 @@
                 z-index: 5
             }
 
-            .framer-nrlNQ .framer-k119nh-container {
+            .framer-aUOY9 .framer-k119nh-container {
                 flex: none;
                 height: auto;
                 left: 0;
@@ -1522,12 +1617,12 @@
                 transform: translateY(-50%)
             }
 
-            .framer-nrlNQ .framer-10tvzx2 {
+            .framer-aUOY9 .framer-10tvzx2 {
                 align-content: center;
                 align-items: center;
                 background-color: var(--token-48f089df-a422-4389-ab7f-76dc5ff60e7e, #f0fbff);
                 border-radius: 90px;
-                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #00000010;
+                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #0000000f;
                 display: flex;
                 flex: none;
                 flex-direction: column;
@@ -1542,7 +1637,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-zn8iyw {
+            .framer-aUOY9 .framer-zn8iyw {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1558,7 +1653,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-17x56as {
+            .framer-aUOY9 .framer-17x56as {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1574,7 +1669,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-189p443 {
+            .framer-aUOY9 .framer-189p443 {
                 flex: none;
                 height: auto;
                 position: relative;
@@ -1584,7 +1679,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-1g5qlvg {
+            .framer-aUOY9 .framer-1g5qlvg {
                 display: grid;
                 flex: none;
                 gap: 20px;
@@ -1599,7 +1694,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-mkvy5m-container,.framer-nrlNQ .framer-1lftlqi-container {
+            .framer-aUOY9 .framer-mkvy5m-container,.framer-aUOY9 .framer-1lftlqi-container {
                 align-self: start;
                 flex: none;
                 height: 370px;
@@ -1608,7 +1703,7 @@
                 width: 1fr
             }
 
-            .framer-nrlNQ .framer-1gplpvd-container {
+            .framer-aUOY9 .framer-1gplpvd-container {
                 align-self: start;
                 flex: none;
                 height: 370px;
@@ -1617,7 +1712,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-rpr30b {
+            .framer-aUOY9 .framer-rpr30b {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -1635,7 +1730,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-o8kj3g {
+            .framer-aUOY9 .framer-o8kj3g {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1651,7 +1746,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-14nxyt1 {
+            .framer-aUOY9 .framer-14nxyt1 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1667,7 +1762,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-16wpke4 {
+            .framer-aUOY9 .framer-16wpke4 {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1683,7 +1778,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-frtkqd,.framer-nrlNQ .framer-1jsuvxa {
+            .framer-aUOY9 .framer-frtkqd,.framer-aUOY9 .framer-1jsuvxa {
                 border-radius: 30px;
                 box-shadow: 0 0 9px #00000040;
                 cursor: pointer;
@@ -1695,7 +1790,7 @@
                 will-change: var(--framer-will-change-override, transform)
             }
 
-            .framer-nrlNQ.framer-1crd2v1 {
+            .framer-aUOY9.framer-1crd2v1 {
                 background-color: #000c;
                 inset: 0;
                 position: fixed;
@@ -1703,7 +1798,7 @@
                 z-index: 10
             }
 
-            .framer-nrlNQ.framer-1pzerps {
+            .framer-aUOY9.framer-1pzerps {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1722,7 +1817,7 @@
                 z-index: 10
             }
 
-            .framer-nrlNQ .framer-na1a9t {
+            .framer-aUOY9 .framer-na1a9t {
                 cursor: pointer;
                 flex: 1 0 0px;
                 height: 100%;
@@ -1730,7 +1825,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-1bt86az,.framer-nrlNQ .framer-1e6bvbh {
+            .framer-aUOY9 .framer-1bt86az,.framer-aUOY9 .framer-1e6bvbh {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1745,7 +1840,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-15frkz0,.framer-nrlNQ .framer-xyuns8 {
+            .framer-aUOY9 .framer-15frkz0,.framer-aUOY9 .framer-xyuns8 {
                 --framer-link-text-color: #0099ff;
                 --framer-link-text-decoration: underline;
                 --framer-paragraph-spacing: 0px;
@@ -1757,7 +1852,7 @@
                 width: auto
             }
 
-            .framer-nrlNQ .framer-jvfs1e {
+            .framer-aUOY9 .framer-jvfs1e {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1773,7 +1868,7 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-a6go4n-container {
+            .framer-aUOY9 .framer-a6go4n-container {
                 flex: none;
                 height: 280px;
                 left: 0;
@@ -1782,14 +1877,14 @@
                 top: 0
             }
 
-            .framer-nrlNQ .framer-1l9upba,.framer-nrlNQ .framer-170whsu,.framer-nrlNQ .framer-1foiewq {
+            .framer-aUOY9 .framer-1l9upba,.framer-aUOY9 .framer-170whsu,.framer-aUOY9 .framer-1foiewq,.framer-aUOY9 .framer-tfpc4a {
                 height: 250px;
                 overflow: visible;
                 position: relative;
                 width: 520px
             }
 
-            .framer-nrlNQ.framer-ig0vvd {
+            .framer-aUOY9.framer-ig0vvd {
                 background-color: #000c;
                 inset: 0;
                 position: fixed;
@@ -1797,7 +1892,7 @@
                 z-index: 9
             }
 
-            .framer-nrlNQ.framer-12gtsdd-container {
+            .framer-aUOY9.framer-12gtsdd-container {
                 flex: none;
                 height: 650px;
                 left: calc(50.00000000000002% - min(100%,76%) / 2);
@@ -1809,7 +1904,7 @@
                 z-index: 9
             }
 
-            .framer-nrlNQ .framer-jpm87x {
+            .framer-aUOY9 .framer-jpm87x {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1825,7 +1920,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-14mocnn {
+            .framer-aUOY9 .framer-14mocnn {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1842,12 +1937,12 @@
                 width: 1px
             }
 
-            .framer-nrlNQ .framer-63ebyq {
+            .framer-aUOY9 .framer-63ebyq {
                 align-content: flex-start;
                 align-items: flex-start;
-                background: linear-gradient(295deg,#477993 0%,rgb(232,249,255) 100%);
+                background: linear-gradient(295deg,#477993,#e8f9ff);
                 border-radius: 90px;
-                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #00000010;
+                box-shadow: 0 .6021873017743928px .6021873017743928px -1.25px #0000002e,0 2.288533303243457px 2.288533303243457px -2.5px #00000029,0 10px 10px -3.75px #0000000f;
                 display: flex;
                 flex: none;
                 flex-direction: column;
@@ -1862,7 +1957,7 @@
                 will-change: var(--framer-will-change-effect-override, transform)
             }
 
-            .framer-nrlNQ .framer-1qesurz {
+            .framer-aUOY9 .framer-1qesurz {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -1879,7 +1974,7 @@
                 will-change: var(--framer-will-change-effect-override, transform)
             }
 
-            .framer-nrlNQ .framer-vl98ry {
+            .framer-aUOY9 .framer-vl98ry {
                 flex: none;
                 height: auto;
                 max-width: 640px;
@@ -1890,7 +1985,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-1s5r6v8 {
+            .framer-aUOY9 .framer-1s5r6v8 {
                 --framer-paragraph-spacing: 0px;
                 flex: none;
                 height: auto;
@@ -1903,7 +1998,7 @@
                 word-wrap: break-word
             }
 
-            .framer-nrlNQ .framer-keiu5z {
+            .framer-aUOY9 .framer-keiu5z {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1919,7 +2014,7 @@
                 width: min-content
             }
 
-            .framer-nrlNQ .framer-mougb5 {
+            .framer-aUOY9 .framer-mougb5 {
                 align-content: center;
                 align-items: center;
                 border-radius: 90px;
@@ -1939,7 +2034,7 @@
                 will-change: var(--framer-will-change-override, transform)
             }
 
-            .framer-nrlNQ .framer-17gl2i2 {
+            .framer-aUOY9 .framer-17gl2i2 {
                 aspect-ratio: 1.9069239500567539 / 1;
                 bottom: -56px;
                 flex: none;
@@ -1951,7 +2046,7 @@
                 z-index: 1
             }
 
-            .framer-nrlNQ .framer-y4j3ro {
+            .framer-aUOY9 .framer-y4j3ro {
                 align-content: center;
                 align-items: center;
                 background-color: #fff;
@@ -1968,7 +2063,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-u57ml8 {
+            .framer-aUOY9 .framer-u57ml8 {
                 align-content: center;
                 align-items: center;
                 display: flex;
@@ -1984,7 +2079,7 @@
                 width: 200px
             }
 
-            .framer-nrlNQ .framer-2x6lw1 {
+            .framer-aUOY9 .framer-2x6lw1 {
                 align-content: center;
                 align-items: center;
                 background-color: #000;
@@ -2001,7 +2096,7 @@
                 width: 100%
             }
 
-            .framer-nrlNQ .framer-8cc5yo {
+            .framer-aUOY9 .framer-8cc5yo {
                 align-content: flex-start;
                 align-items: flex-start;
                 display: flex;
@@ -2019,79 +2114,79 @@
             }
 
             @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
-                .framer-nrlNQ.framer-72rtr7,.framer-nrlNQ .framer-hupp91,.framer-nrlNQ .framer-11xv83k,.framer-nrlNQ .framer-uza3ek,.framer-nrlNQ .framer-o4v84a,.framer-nrlNQ .framer-mb85dh,.framer-nrlNQ.framer-m6m365,.framer-nrlNQ .framer-1q37574,.framer-nrlNQ .framer-34jq0w,.framer-nrlNQ .framer-r09xi,.framer-nrlNQ .framer-9hvrsy,.framer-nrlNQ .framer-1izrjyr,.framer-nrlNQ.framer-1pysvnj,.framer-nrlNQ .framer-fnarkm,.framer-nrlNQ .framer-eq8d78,.framer-nrlNQ .framer-14308p5,.framer-nrlNQ .framer-1azlrud,.framer-nrlNQ .framer-19fpqfh,.framer-nrlNQ .framer-12z676r,.framer-nrlNQ .framer-nf723z,.framer-nrlNQ .framer-1qi6w1m,.framer-nrlNQ .framer-1drq1o8,.framer-nrlNQ .framer-1ggikxe,.framer-nrlNQ .framer-h6p9yy,.framer-nrlNQ .framer-10tvzx2,.framer-nrlNQ .framer-zn8iyw,.framer-nrlNQ .framer-17x56as,.framer-nrlNQ .framer-rpr30b,.framer-nrlNQ .framer-o8kj3g,.framer-nrlNQ .framer-14nxyt1,.framer-nrlNQ .framer-16wpke4,.framer-nrlNQ.framer-1pzerps,.framer-nrlNQ .framer-1bt86az,.framer-nrlNQ .framer-jvfs1e,.framer-nrlNQ .framer-1e6bvbh,.framer-nrlNQ .framer-jpm87x,.framer-nrlNQ .framer-14mocnn,.framer-nrlNQ .framer-63ebyq,.framer-nrlNQ .framer-1qesurz,.framer-nrlNQ .framer-keiu5z,.framer-nrlNQ.framer-ule2sx,.framer-nrlNQ .framer-mougb5,.framer-nrlNQ .framer-y4j3ro,.framer-nrlNQ .framer-u57ml8,.framer-nrlNQ .framer-2x6lw1,.framer-nrlNQ .framer-8cc5yo {
+                .framer-aUOY9.framer-72rtr7,.framer-aUOY9 .framer-hupp91,.framer-aUOY9 .framer-11xv83k,.framer-aUOY9 .framer-uza3ek,.framer-aUOY9 .framer-o4v84a,.framer-aUOY9 .framer-mb85dh,.framer-aUOY9.framer-m6m365,.framer-aUOY9 .framer-1q37574,.framer-aUOY9 .framer-34jq0w,.framer-aUOY9 .framer-r09xi,.framer-aUOY9 .framer-9hvrsy,.framer-aUOY9 .framer-1izrjyr,.framer-aUOY9.framer-1pysvnj,.framer-aUOY9 .framer-fnarkm,.framer-aUOY9 .framer-eq8d78,.framer-aUOY9 .framer-14308p5,.framer-aUOY9 .framer-1azlrud,.framer-aUOY9 .framer-19fpqfh,.framer-aUOY9 .framer-12z676r,.framer-aUOY9 .framer-nf723z,.framer-aUOY9 .framer-1qi6w1m,.framer-aUOY9 .framer-1drq1o8,.framer-aUOY9 .framer-1ggikxe,.framer-aUOY9 .framer-h6p9yy,.framer-aUOY9 .framer-10tvzx2,.framer-aUOY9 .framer-zn8iyw,.framer-aUOY9 .framer-17x56as,.framer-aUOY9 .framer-rpr30b,.framer-aUOY9 .framer-o8kj3g,.framer-aUOY9 .framer-14nxyt1,.framer-aUOY9 .framer-16wpke4,.framer-aUOY9.framer-1pzerps,.framer-aUOY9 .framer-1bt86az,.framer-aUOY9 .framer-jvfs1e,.framer-aUOY9 .framer-1e6bvbh,.framer-aUOY9 .framer-jpm87x,.framer-aUOY9 .framer-14mocnn,.framer-aUOY9 .framer-63ebyq,.framer-aUOY9 .framer-1qesurz,.framer-aUOY9 .framer-keiu5z,.framer-aUOY9.framer-ule2sx,.framer-aUOY9 .framer-mougb5,.framer-aUOY9 .framer-y4j3ro,.framer-aUOY9 .framer-u57ml8,.framer-aUOY9 .framer-2x6lw1,.framer-aUOY9 .framer-8cc5yo {
                     gap:0px
                 }
 
-                .framer-nrlNQ.framer-72rtr7>*,.framer-nrlNQ.framer-m6m365>*,.framer-nrlNQ.framer-1pysvnj>*,.framer-nrlNQ.framer-ule2sx>*,.framer-nrlNQ .framer-mougb5>* {
+                .framer-aUOY9.framer-72rtr7>*,.framer-aUOY9.framer-m6m365>*,.framer-aUOY9.framer-1pysvnj>*,.framer-aUOY9.framer-ule2sx>*,.framer-aUOY9 .framer-mougb5>* {
                     margin: 40px 0
                 }
 
-                .framer-nrlNQ.framer-72rtr7>:first-child,.framer-nrlNQ .framer-hupp91>:first-child,.framer-nrlNQ.framer-m6m365>:first-child,.framer-nrlNQ .framer-1q37574>:first-child,.framer-nrlNQ .framer-9hvrsy>:first-child,.framer-nrlNQ.framer-1pysvnj>:first-child,.framer-nrlNQ .framer-fnarkm>:first-child,.framer-nrlNQ .framer-eq8d78>:first-child,.framer-nrlNQ .framer-12z676r>:first-child,.framer-nrlNQ .framer-nf723z>:first-child,.framer-nrlNQ .framer-10tvzx2>:first-child,.framer-nrlNQ .framer-zn8iyw>:first-child,.framer-nrlNQ .framer-17x56as>:first-child,.framer-nrlNQ .framer-rpr30b>:first-child,.framer-nrlNQ .framer-16wpke4>:first-child,.framer-nrlNQ .framer-1bt86az>:first-child,.framer-nrlNQ .framer-jvfs1e>:first-child,.framer-nrlNQ .framer-1e6bvbh>:first-child,.framer-nrlNQ .framer-14mocnn>:first-child,.framer-nrlNQ .framer-63ebyq>:first-child,.framer-nrlNQ .framer-1qesurz>:first-child,.framer-nrlNQ.framer-ule2sx>:first-child,.framer-nrlNQ .framer-mougb5>:first-child,.framer-nrlNQ .framer-2x6lw1>:first-child {
+                .framer-aUOY9.framer-72rtr7>:first-child,.framer-aUOY9 .framer-hupp91>:first-child,.framer-aUOY9.framer-m6m365>:first-child,.framer-aUOY9 .framer-1q37574>:first-child,.framer-aUOY9 .framer-9hvrsy>:first-child,.framer-aUOY9.framer-1pysvnj>:first-child,.framer-aUOY9 .framer-fnarkm>:first-child,.framer-aUOY9 .framer-eq8d78>:first-child,.framer-aUOY9 .framer-12z676r>:first-child,.framer-aUOY9 .framer-nf723z>:first-child,.framer-aUOY9 .framer-10tvzx2>:first-child,.framer-aUOY9 .framer-zn8iyw>:first-child,.framer-aUOY9 .framer-17x56as>:first-child,.framer-aUOY9 .framer-rpr30b>:first-child,.framer-aUOY9 .framer-16wpke4>:first-child,.framer-aUOY9 .framer-1bt86az>:first-child,.framer-aUOY9 .framer-jvfs1e>:first-child,.framer-aUOY9 .framer-1e6bvbh>:first-child,.framer-aUOY9 .framer-14mocnn>:first-child,.framer-aUOY9 .framer-63ebyq>:first-child,.framer-aUOY9 .framer-1qesurz>:first-child,.framer-aUOY9.framer-ule2sx>:first-child,.framer-aUOY9 .framer-mougb5>:first-child,.framer-aUOY9 .framer-2x6lw1>:first-child {
                     margin-top: 0
                 }
 
-                .framer-nrlNQ.framer-72rtr7>:last-child,.framer-nrlNQ .framer-hupp91>:last-child,.framer-nrlNQ.framer-m6m365>:last-child,.framer-nrlNQ .framer-1q37574>:last-child,.framer-nrlNQ .framer-9hvrsy>:last-child,.framer-nrlNQ.framer-1pysvnj>:last-child,.framer-nrlNQ .framer-fnarkm>:last-child,.framer-nrlNQ .framer-eq8d78>:last-child,.framer-nrlNQ .framer-12z676r>:last-child,.framer-nrlNQ .framer-nf723z>:last-child,.framer-nrlNQ .framer-10tvzx2>:last-child,.framer-nrlNQ .framer-zn8iyw>:last-child,.framer-nrlNQ .framer-17x56as>:last-child,.framer-nrlNQ .framer-rpr30b>:last-child,.framer-nrlNQ .framer-16wpke4>:last-child,.framer-nrlNQ .framer-1bt86az>:last-child,.framer-nrlNQ .framer-jvfs1e>:last-child,.framer-nrlNQ .framer-1e6bvbh>:last-child,.framer-nrlNQ .framer-14mocnn>:last-child,.framer-nrlNQ .framer-63ebyq>:last-child,.framer-nrlNQ .framer-1qesurz>:last-child,.framer-nrlNQ.framer-ule2sx>:last-child,.framer-nrlNQ .framer-mougb5>:last-child,.framer-nrlNQ .framer-2x6lw1>:last-child {
+                .framer-aUOY9.framer-72rtr7>:last-child,.framer-aUOY9 .framer-hupp91>:last-child,.framer-aUOY9.framer-m6m365>:last-child,.framer-aUOY9 .framer-1q37574>:last-child,.framer-aUOY9 .framer-9hvrsy>:last-child,.framer-aUOY9.framer-1pysvnj>:last-child,.framer-aUOY9 .framer-fnarkm>:last-child,.framer-aUOY9 .framer-eq8d78>:last-child,.framer-aUOY9 .framer-12z676r>:last-child,.framer-aUOY9 .framer-nf723z>:last-child,.framer-aUOY9 .framer-10tvzx2>:last-child,.framer-aUOY9 .framer-zn8iyw>:last-child,.framer-aUOY9 .framer-17x56as>:last-child,.framer-aUOY9 .framer-rpr30b>:last-child,.framer-aUOY9 .framer-16wpke4>:last-child,.framer-aUOY9 .framer-1bt86az>:last-child,.framer-aUOY9 .framer-jvfs1e>:last-child,.framer-aUOY9 .framer-1e6bvbh>:last-child,.framer-aUOY9 .framer-14mocnn>:last-child,.framer-aUOY9 .framer-63ebyq>:last-child,.framer-aUOY9 .framer-1qesurz>:last-child,.framer-aUOY9.framer-ule2sx>:last-child,.framer-aUOY9 .framer-mougb5>:last-child,.framer-aUOY9 .framer-2x6lw1>:last-child {
                     margin-bottom: 0
                 }
 
-                .framer-nrlNQ .framer-hupp91>*,.framer-nrlNQ .framer-9hvrsy>*,.framer-nrlNQ .framer-fnarkm>*,.framer-nrlNQ .framer-12z676r>*,.framer-nrlNQ .framer-nf723z>*,.framer-nrlNQ .framer-2x6lw1>* {
+                .framer-aUOY9 .framer-hupp91>*,.framer-aUOY9 .framer-9hvrsy>*,.framer-aUOY9 .framer-fnarkm>*,.framer-aUOY9 .framer-12z676r>*,.framer-aUOY9 .framer-nf723z>*,.framer-aUOY9 .framer-2x6lw1>* {
                     margin: 10px 0
                 }
 
-                .framer-nrlNQ .framer-11xv83k>*,.framer-nrlNQ .framer-o4v84a>*,.framer-nrlNQ .framer-mb85dh>*,.framer-nrlNQ .framer-1azlrud>*,.framer-nrlNQ .framer-19fpqfh>*,.framer-nrlNQ .framer-1drq1o8>*,.framer-nrlNQ .framer-1ggikxe>*,.framer-nrlNQ .framer-h6p9yy>*,.framer-nrlNQ .framer-o8kj3g>*,.framer-nrlNQ .framer-14nxyt1>*,.framer-nrlNQ.framer-1pzerps>*,.framer-nrlNQ .framer-y4j3ro>*,.framer-nrlNQ .framer-8cc5yo>* {
+                .framer-aUOY9 .framer-11xv83k>*,.framer-aUOY9 .framer-o4v84a>*,.framer-aUOY9 .framer-mb85dh>*,.framer-aUOY9 .framer-1azlrud>*,.framer-aUOY9 .framer-19fpqfh>*,.framer-aUOY9 .framer-1drq1o8>*,.framer-aUOY9 .framer-1ggikxe>*,.framer-aUOY9 .framer-h6p9yy>*,.framer-aUOY9 .framer-o8kj3g>*,.framer-aUOY9 .framer-14nxyt1>*,.framer-aUOY9.framer-1pzerps>*,.framer-aUOY9 .framer-y4j3ro>*,.framer-aUOY9 .framer-8cc5yo>* {
                     margin: 0 40px
                 }
 
-                .framer-nrlNQ .framer-11xv83k>:first-child,.framer-nrlNQ .framer-uza3ek>:first-child,.framer-nrlNQ .framer-o4v84a>:first-child,.framer-nrlNQ .framer-mb85dh>:first-child,.framer-nrlNQ .framer-34jq0w>:first-child,.framer-nrlNQ .framer-r09xi>:first-child,.framer-nrlNQ .framer-1izrjyr>:first-child,.framer-nrlNQ .framer-14308p5>:first-child,.framer-nrlNQ .framer-1azlrud>:first-child,.framer-nrlNQ .framer-19fpqfh>:first-child,.framer-nrlNQ .framer-1qi6w1m>:first-child,.framer-nrlNQ .framer-1drq1o8>:first-child,.framer-nrlNQ .framer-1ggikxe>:first-child,.framer-nrlNQ .framer-h6p9yy>:first-child,.framer-nrlNQ .framer-o8kj3g>:first-child,.framer-nrlNQ .framer-14nxyt1>:first-child,.framer-nrlNQ.framer-1pzerps>:first-child,.framer-nrlNQ .framer-jpm87x>:first-child,.framer-nrlNQ .framer-keiu5z>:first-child,.framer-nrlNQ .framer-y4j3ro>:first-child,.framer-nrlNQ .framer-u57ml8>:first-child,.framer-nrlNQ .framer-8cc5yo>:first-child {
+                .framer-aUOY9 .framer-11xv83k>:first-child,.framer-aUOY9 .framer-uza3ek>:first-child,.framer-aUOY9 .framer-o4v84a>:first-child,.framer-aUOY9 .framer-mb85dh>:first-child,.framer-aUOY9 .framer-34jq0w>:first-child,.framer-aUOY9 .framer-r09xi>:first-child,.framer-aUOY9 .framer-1izrjyr>:first-child,.framer-aUOY9 .framer-14308p5>:first-child,.framer-aUOY9 .framer-1azlrud>:first-child,.framer-aUOY9 .framer-19fpqfh>:first-child,.framer-aUOY9 .framer-1qi6w1m>:first-child,.framer-aUOY9 .framer-1drq1o8>:first-child,.framer-aUOY9 .framer-1ggikxe>:first-child,.framer-aUOY9 .framer-h6p9yy>:first-child,.framer-aUOY9 .framer-o8kj3g>:first-child,.framer-aUOY9 .framer-14nxyt1>:first-child,.framer-aUOY9.framer-1pzerps>:first-child,.framer-aUOY9 .framer-jpm87x>:first-child,.framer-aUOY9 .framer-keiu5z>:first-child,.framer-aUOY9 .framer-y4j3ro>:first-child,.framer-aUOY9 .framer-u57ml8>:first-child,.framer-aUOY9 .framer-8cc5yo>:first-child {
                     margin-left: 0
                 }
 
-                .framer-nrlNQ .framer-11xv83k>:last-child,.framer-nrlNQ .framer-uza3ek>:last-child,.framer-nrlNQ .framer-o4v84a>:last-child,.framer-nrlNQ .framer-mb85dh>:last-child,.framer-nrlNQ .framer-34jq0w>:last-child,.framer-nrlNQ .framer-r09xi>:last-child,.framer-nrlNQ .framer-1izrjyr>:last-child,.framer-nrlNQ .framer-14308p5>:last-child,.framer-nrlNQ .framer-1azlrud>:last-child,.framer-nrlNQ .framer-19fpqfh>:last-child,.framer-nrlNQ .framer-1qi6w1m>:last-child,.framer-nrlNQ .framer-1drq1o8>:last-child,.framer-nrlNQ .framer-1ggikxe>:last-child,.framer-nrlNQ .framer-h6p9yy>:last-child,.framer-nrlNQ .framer-o8kj3g>:last-child,.framer-nrlNQ .framer-14nxyt1>:last-child,.framer-nrlNQ.framer-1pzerps>:last-child,.framer-nrlNQ .framer-jpm87x>:last-child,.framer-nrlNQ .framer-keiu5z>:last-child,.framer-nrlNQ .framer-y4j3ro>:last-child,.framer-nrlNQ .framer-u57ml8>:last-child,.framer-nrlNQ .framer-8cc5yo>:last-child {
+                .framer-aUOY9 .framer-11xv83k>:last-child,.framer-aUOY9 .framer-uza3ek>:last-child,.framer-aUOY9 .framer-o4v84a>:last-child,.framer-aUOY9 .framer-mb85dh>:last-child,.framer-aUOY9 .framer-34jq0w>:last-child,.framer-aUOY9 .framer-r09xi>:last-child,.framer-aUOY9 .framer-1izrjyr>:last-child,.framer-aUOY9 .framer-14308p5>:last-child,.framer-aUOY9 .framer-1azlrud>:last-child,.framer-aUOY9 .framer-19fpqfh>:last-child,.framer-aUOY9 .framer-1qi6w1m>:last-child,.framer-aUOY9 .framer-1drq1o8>:last-child,.framer-aUOY9 .framer-1ggikxe>:last-child,.framer-aUOY9 .framer-h6p9yy>:last-child,.framer-aUOY9 .framer-o8kj3g>:last-child,.framer-aUOY9 .framer-14nxyt1>:last-child,.framer-aUOY9.framer-1pzerps>:last-child,.framer-aUOY9 .framer-jpm87x>:last-child,.framer-aUOY9 .framer-keiu5z>:last-child,.framer-aUOY9 .framer-y4j3ro>:last-child,.framer-aUOY9 .framer-u57ml8>:last-child,.framer-aUOY9 .framer-8cc5yo>:last-child {
                     margin-right: 0
                 }
 
-                .framer-nrlNQ .framer-uza3ek>*,.framer-nrlNQ .framer-r09xi>* {
+                .framer-aUOY9 .framer-uza3ek>*,.framer-aUOY9 .framer-r09xi>* {
                     margin: 0 5px
                 }
 
-                .framer-nrlNQ .framer-1q37574>*,.framer-nrlNQ .framer-63ebyq>* {
+                .framer-aUOY9 .framer-1q37574>*,.framer-aUOY9 .framer-63ebyq>* {
                     margin: 20px 0
                 }
 
-                .framer-nrlNQ .framer-34jq0w>*,.framer-nrlNQ .framer-14308p5>*,.framer-nrlNQ .framer-1qi6w1m>*,.framer-nrlNQ .framer-jpm87x>* {
+                .framer-aUOY9 .framer-34jq0w>*,.framer-aUOY9 .framer-14308p5>*,.framer-aUOY9 .framer-1qi6w1m>*,.framer-aUOY9 .framer-jpm87x>* {
                     margin: 0
                 }
 
-                .framer-nrlNQ .framer-1izrjyr>* {
+                .framer-aUOY9 .framer-1izrjyr>* {
                     margin: 0 7.5px
                 }
 
-                .framer-nrlNQ .framer-eq8d78>*,.framer-nrlNQ .framer-17x56as>*,.framer-nrlNQ .framer-1bt86az>*,.framer-nrlNQ .framer-1e6bvbh>* {
+                .framer-aUOY9 .framer-eq8d78>*,.framer-aUOY9 .framer-17x56as>*,.framer-aUOY9 .framer-1bt86az>*,.framer-aUOY9 .framer-1e6bvbh>* {
                     margin: 5px 0
                 }
 
-                .framer-nrlNQ .framer-10tvzx2>*,.framer-nrlNQ .framer-16wpke4>*,.framer-nrlNQ .framer-jvfs1e>* {
+                .framer-aUOY9 .framer-10tvzx2>*,.framer-aUOY9 .framer-16wpke4>*,.framer-aUOY9 .framer-jvfs1e>* {
                     margin: 15px 0
                 }
 
-                .framer-nrlNQ .framer-zn8iyw>* {
+                .framer-aUOY9 .framer-zn8iyw>* {
                     margin: 25px 0
                 }
 
-                .framer-nrlNQ .framer-rpr30b>*,.framer-nrlNQ .framer-14mocnn>* {
+                .framer-aUOY9 .framer-rpr30b>*,.framer-aUOY9 .framer-14mocnn>* {
                     margin: 30px 0
                 }
 
-                .framer-nrlNQ .framer-1qesurz>* {
+                .framer-aUOY9 .framer-1qesurz>* {
                     margin: 8px 0
                 }
 
-                .framer-nrlNQ .framer-keiu5z>* {
+                .framer-aUOY9 .framer-keiu5z>* {
                     margin: 0 10px
                 }
 
-                .framer-nrlNQ .framer-u57ml8>* {
+                .framer-aUOY9 .framer-u57ml8>* {
                     margin: 0 7px
                 }
             }
@@ -2105,56 +2200,56 @@
             }
 
             @media (max-width: 809px) {
-                .framer-nrlNQ.framer-72rtr7 {
+                .framer-aUOY9.framer-72rtr7 {
                     gap:60px;
                     width: 375px
                 }
 
-                .framer-nrlNQ .framer-hupp91 {
+                .framer-aUOY9 .framer-hupp91 {
                     gap: 10px;
                     height: 99vh;
                     justify-content: flex-start;
                     order: 0
                 }
 
-                .framer-nrlNQ .framer-11xv83k {
+                .framer-aUOY9 .framer-11xv83k {
                     padding: 10px
                 }
 
-                .framer-nrlNQ .framer-nvom3v {
+                .framer-aUOY9 .framer-nvom3v {
                     border-radius: 40px;
                     flex: 1 0 0px;
                     width: 1px;
                     will-change: var(--framer-will-change-effect-override, transform)
                 }
 
-                .framer-nrlNQ .framer-uza3ek {
+                .framer-aUOY9 .framer-uza3ek {
                     order: 0
                 }
 
-                .framer-nrlNQ .framer-o4v84a {
+                .framer-aUOY9 .framer-o4v84a {
                     aspect-ratio: unset;
                     height: 50px;
                     width: 50px
                 }
 
-                .framer-nrlNQ .framer-mb85dh {
+                .framer-aUOY9 .framer-mb85dh {
                     order: 1
                 }
 
-                .framer-nrlNQ .framer-1e87lr6-container {
+                .framer-aUOY9 .framer-1e87lr6-container {
                     aspect-ratio: unset;
                     height: auto;
                     order: 2;
                     width: auto
                 }
 
-                .framer-nrlNQ .framer-1q37574 {
+                .framer-aUOY9 .framer-1q37574 {
                     gap: 10px;
                     padding: 0 20px
                 }
 
-                .framer-nrlNQ .framer-34jq0w {
+                .framer-aUOY9 .framer-34jq0w {
                     flex-direction: column;
                     gap: 20px;
                     height: 706px;
@@ -2162,7 +2257,7 @@
                     padding: 0
                 }
 
-                .framer-nrlNQ .framer-r09xi {
+                .framer-aUOY9 .framer-r09xi {
                     align-self: unset;
                     flex: none;
                     flex-direction: column;
@@ -2171,29 +2266,29 @@
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-9hvrsy {
+                .framer-aUOY9 .framer-9hvrsy {
                     flex: none;
                     gap: 10px;
                     padding: 0;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-fdgh14,.framer-nrlNQ .framer-sc4cjo {
+                .framer-aUOY9 .framer-fdgh14,.framer-aUOY9 .framer-sc4cjo {
                     will-change: var(--framer-will-change-effect-override, transform)
                 }
 
-                .framer-nrlNQ .framer-1izrjyr,.framer-nrlNQ .framer-ocd46u-container {
+                .framer-aUOY9 .framer-1izrjyr,.framer-aUOY9 .framer-ocd46u-container {
                     width: 100%;
                     will-change: var(--framer-will-change-effect-override, transform)
                 }
 
-                .framer-nrlNQ .framer-3vgal1-container,.framer-nrlNQ .framer-9s4q7w-container {
+                .framer-aUOY9 .framer-3vgal1-container,.framer-aUOY9 .framer-9s4q7w-container {
                     flex: 1 0 0px;
                     width: 1px;
                     will-change: var(--framer-will-change-effect-override, transform)
                 }
 
-                .framer-nrlNQ .framer-fnarkm {
+                .framer-aUOY9 .framer-fnarkm {
                     flex: none;
                     height: 380px;
                     min-height: 370px;
@@ -2201,12 +2296,12 @@
                     will-change: var(--framer-will-change-effect-override, transform)
                 }
 
-                .framer-nrlNQ .framer-eq8d78 {
+                .framer-aUOY9 .framer-eq8d78 {
                     gap: 0px;
                     order: 1
                 }
 
-                .framer-nrlNQ .framer-deixiy {
+                .framer-aUOY9 .framer-deixiy {
                     border-radius: 60px;
                     flex-direction: column;
                     gap: 0px;
@@ -2214,82 +2309,82 @@
                     padding: 40px 20px
                 }
 
-                .framer-nrlNQ .framer-14308p5 {
+                .framer-aUOY9 .framer-14308p5 {
                     flex: none;
                     flex-direction: column;
                     gap: 40px;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-1azlrud {
+                .framer-aUOY9 .framer-1azlrud {
                     justify-content: center;
                     overflow: visible;
                     padding: 0;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-19fpqfh {
+                .framer-aUOY9 .framer-19fpqfh {
                     border-radius: 125px;
                     height: var(--framer-aspect-ratio-supported, 250px);
                     justify-content: flex-start;
                     width: 200px
                 }
 
-                .framer-nrlNQ .framer-12z676r {
+                .framer-aUOY9 .framer-12z676r {
                     padding: 0;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-nf723z {
+                .framer-aUOY9 .framer-nf723z {
                     order: 2;
                     padding: 60px 20px
                 }
 
-                .framer-nrlNQ .framer-1qi6w1m {
+                .framer-aUOY9 .framer-1qi6w1m {
                     flex-direction: column;
                     padding: 0
                 }
 
-                .framer-nrlNQ .framer-1drq1o8 {
+                .framer-aUOY9 .framer-1drq1o8 {
                     height: min-content;
                     padding: 0;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-1ggikxe {
+                .framer-aUOY9 .framer-1ggikxe {
                     padding: 0 0 20px
                 }
 
-                .framer-nrlNQ .framer-h6p9yy {
+                .framer-aUOY9 .framer-h6p9yy {
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-10tvzx2 {
+                .framer-aUOY9 .framer-10tvzx2 {
                     border-radius: 60px;
                     order: 3;
                     padding: 40px 20px
                 }
 
-                .framer-nrlNQ .framer-zn8iyw {
+                .framer-aUOY9 .framer-zn8iyw {
                     gap: 20px
                 }
 
-                .framer-nrlNQ .framer-17x56as {
+                .framer-aUOY9 .framer-17x56as {
                     padding: 15px 0
                 }
 
-                .framer-nrlNQ .framer-jbv9ou,.framer-nrlNQ .framer-15frkz0,.framer-nrlNQ .framer-xyuns8 {
+                .framer-aUOY9 .framer-jbv9ou,.framer-aUOY9 .framer-15frkz0,.framer-aUOY9 .framer-xyuns8 {
                     white-space: pre-wrap;
                     width: 100%;
                     word-break: break-word;
                     word-wrap: break-word
                 }
 
-                .framer-nrlNQ .framer-189p443 {
+                .framer-aUOY9 .framer-189p443 {
                     width: 290px
                 }
 
-                .framer-nrlNQ .framer-1g5qlvg {
+                .framer-aUOY9 .framer-1g5qlvg {
                     align-content: flex-start;
                     align-items: flex-start;
                     display: flex;
@@ -2298,28 +2393,28 @@
                     justify-content: flex-start
                 }
 
-                .framer-nrlNQ .framer-mkvy5m-container,.framer-nrlNQ .framer-1lftlqi-container {
+                .framer-aUOY9 .framer-mkvy5m-container,.framer-aUOY9 .framer-1lftlqi-container {
                     align-self: unset;
                     height: 340px;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-1gplpvd-container {
+                .framer-aUOY9 .framer-1gplpvd-container {
                     align-self: unset;
                     height: 340px
                 }
 
-                .framer-nrlNQ .framer-rpr30b {
+                .framer-aUOY9 .framer-rpr30b {
                     gap: 30px;
                     order: 4;
                     padding: 60px 20px
                 }
 
-                .framer-nrlNQ .framer-o8kj3g {
+                .framer-aUOY9 .framer-o8kj3g {
                     height: min-content
                 }
 
-                .framer-nrlNQ .framer-1h80f3s {
+                .framer-aUOY9 .framer-1h80f3s {
                     flex: 1 0 0px;
                     white-space: pre-wrap;
                     width: 1px;
@@ -2327,58 +2422,58 @@
                     word-wrap: break-word
                 }
 
-                .framer-nrlNQ .framer-14nxyt1 {
+                .framer-aUOY9 .framer-14nxyt1 {
                     flex-direction: column;
                     gap: 60px
                 }
 
-                .framer-nrlNQ .framer-16wpke4,.framer-nrlNQ .framer-jvfs1e {
+                .framer-aUOY9 .framer-16wpke4,.framer-aUOY9 .framer-jvfs1e {
                     flex: none;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-frtkqd {
+                .framer-aUOY9 .framer-frtkqd {
                     height: 200px
                 }
 
-                .framer-nrlNQ .framer-1jsuvxa {
+                .framer-aUOY9 .framer-1jsuvxa {
                     height: 220px
                 }
 
-                .framer-nrlNQ .framer-a6go4n-container {
+                .framer-aUOY9 .framer-a6go4n-container {
                     height: 100%
                 }
 
-                .framer-nrlNQ.framer-12gtsdd-container {
+                .framer-aUOY9.framer-12gtsdd-container {
                     height: 250px;
                     left: calc(49.86666666666669% - min(100%,97.86666666666667%) / 2);
                     top: calc(50.00000000000002% - min(100%,250px) / 2);
                     width: 98%
                 }
 
-                .framer-nrlNQ .framer-jpm87x {
+                .framer-aUOY9 .framer-jpm87x {
                     order: 5
                 }
 
-                .framer-nrlNQ .framer-14mocnn {
+                .framer-aUOY9 .framer-14mocnn {
                     gap: 0px;
                     max-width: unset;
                     padding: 0 20px
                 }
 
-                .framer-nrlNQ .framer-63ebyq {
+                .framer-aUOY9 .framer-63ebyq {
                     border-radius: 60px;
                     padding: 40px;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-keiu5z {
+                .framer-aUOY9 .framer-keiu5z {
                     flex-direction: column;
                     width: 100%;
                     z-index: 5
                 }
 
-                .framer-nrlNQ .framer-mougb5 {
+                .framer-aUOY9 .framer-mougb5 {
                     border-bottom-left-radius: unset;
                     border-bottom-right-radius: unset;
                     border-top-left-radius: unset;
@@ -2386,7 +2481,7 @@
                     will-change: unset
                 }
 
-                .framer-nrlNQ .framer-17gl2i2 {
+                .framer-aUOY9 .framer-17gl2i2 {
                     bottom: unset;
                     height: var(--framer-aspect-ratio-supported, 173px);
                     right: -154px;
@@ -2394,126 +2489,126 @@
                     width: 329px
                 }
 
-                .framer-nrlNQ .framer-y4j3ro {
+                .framer-aUOY9 .framer-y4j3ro {
                     order: 6
                 }
 
-                .framer-nrlNQ .framer-2x6lw1 {
+                .framer-aUOY9 .framer-2x6lw1 {
                     order: 7;
                     padding: 20px
                 }
 
                 @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
-                    .framer-nrlNQ.framer-72rtr7,.framer-nrlNQ .framer-hupp91,.framer-nrlNQ .framer-1q37574,.framer-nrlNQ .framer-34jq0w,.framer-nrlNQ .framer-r09xi,.framer-nrlNQ .framer-9hvrsy,.framer-nrlNQ .framer-eq8d78,.framer-nrlNQ .framer-deixiy,.framer-nrlNQ .framer-14308p5,.framer-nrlNQ .framer-1qi6w1m,.framer-nrlNQ .framer-zn8iyw,.framer-nrlNQ .framer-1g5qlvg,.framer-nrlNQ .framer-rpr30b,.framer-nrlNQ .framer-14nxyt1,.framer-nrlNQ .framer-14mocnn,.framer-nrlNQ .framer-keiu5z {
+                    .framer-aUOY9.framer-72rtr7,.framer-aUOY9 .framer-hupp91,.framer-aUOY9 .framer-1q37574,.framer-aUOY9 .framer-34jq0w,.framer-aUOY9 .framer-r09xi,.framer-aUOY9 .framer-9hvrsy,.framer-aUOY9 .framer-eq8d78,.framer-aUOY9 .framer-deixiy,.framer-aUOY9 .framer-14308p5,.framer-aUOY9 .framer-1qi6w1m,.framer-aUOY9 .framer-zn8iyw,.framer-aUOY9 .framer-1g5qlvg,.framer-aUOY9 .framer-rpr30b,.framer-aUOY9 .framer-14nxyt1,.framer-aUOY9 .framer-14mocnn,.framer-aUOY9 .framer-keiu5z {
                         gap:0px
                     }
 
-                    .framer-nrlNQ.framer-72rtr7>*,.framer-nrlNQ .framer-14nxyt1>* {
+                    .framer-aUOY9.framer-72rtr7>*,.framer-aUOY9 .framer-14nxyt1>* {
                         margin: 30px 0
                     }
 
-                    .framer-nrlNQ.framer-72rtr7>:first-child,.framer-nrlNQ .framer-hupp91>:first-child,.framer-nrlNQ .framer-1q37574>:first-child,.framer-nrlNQ .framer-34jq0w>:first-child,.framer-nrlNQ .framer-r09xi>:first-child,.framer-nrlNQ .framer-9hvrsy>:first-child,.framer-nrlNQ .framer-eq8d78>:first-child,.framer-nrlNQ .framer-deixiy>:first-child,.framer-nrlNQ .framer-14308p5>:first-child,.framer-nrlNQ .framer-1qi6w1m>:first-child,.framer-nrlNQ .framer-zn8iyw>:first-child,.framer-nrlNQ .framer-1g5qlvg>:first-child,.framer-nrlNQ .framer-rpr30b>:first-child,.framer-nrlNQ .framer-14nxyt1>:first-child,.framer-nrlNQ .framer-14mocnn>:first-child,.framer-nrlNQ .framer-keiu5z>:first-child {
+                    .framer-aUOY9.framer-72rtr7>:first-child,.framer-aUOY9 .framer-hupp91>:first-child,.framer-aUOY9 .framer-1q37574>:first-child,.framer-aUOY9 .framer-34jq0w>:first-child,.framer-aUOY9 .framer-r09xi>:first-child,.framer-aUOY9 .framer-9hvrsy>:first-child,.framer-aUOY9 .framer-eq8d78>:first-child,.framer-aUOY9 .framer-deixiy>:first-child,.framer-aUOY9 .framer-14308p5>:first-child,.framer-aUOY9 .framer-1qi6w1m>:first-child,.framer-aUOY9 .framer-zn8iyw>:first-child,.framer-aUOY9 .framer-1g5qlvg>:first-child,.framer-aUOY9 .framer-rpr30b>:first-child,.framer-aUOY9 .framer-14nxyt1>:first-child,.framer-aUOY9 .framer-14mocnn>:first-child,.framer-aUOY9 .framer-keiu5z>:first-child {
                         margin-top: 0
                     }
 
-                    .framer-nrlNQ.framer-72rtr7>:last-child,.framer-nrlNQ .framer-hupp91>:last-child,.framer-nrlNQ .framer-1q37574>:last-child,.framer-nrlNQ .framer-34jq0w>:last-child,.framer-nrlNQ .framer-r09xi>:last-child,.framer-nrlNQ .framer-9hvrsy>:last-child,.framer-nrlNQ .framer-eq8d78>:last-child,.framer-nrlNQ .framer-deixiy>:last-child,.framer-nrlNQ .framer-14308p5>:last-child,.framer-nrlNQ .framer-1qi6w1m>:last-child,.framer-nrlNQ .framer-zn8iyw>:last-child,.framer-nrlNQ .framer-1g5qlvg>:last-child,.framer-nrlNQ .framer-rpr30b>:last-child,.framer-nrlNQ .framer-14nxyt1>:last-child,.framer-nrlNQ .framer-14mocnn>:last-child,.framer-nrlNQ .framer-keiu5z>:last-child {
+                    .framer-aUOY9.framer-72rtr7>:last-child,.framer-aUOY9 .framer-hupp91>:last-child,.framer-aUOY9 .framer-1q37574>:last-child,.framer-aUOY9 .framer-34jq0w>:last-child,.framer-aUOY9 .framer-r09xi>:last-child,.framer-aUOY9 .framer-9hvrsy>:last-child,.framer-aUOY9 .framer-eq8d78>:last-child,.framer-aUOY9 .framer-deixiy>:last-child,.framer-aUOY9 .framer-14308p5>:last-child,.framer-aUOY9 .framer-1qi6w1m>:last-child,.framer-aUOY9 .framer-zn8iyw>:last-child,.framer-aUOY9 .framer-1g5qlvg>:last-child,.framer-aUOY9 .framer-rpr30b>:last-child,.framer-aUOY9 .framer-14nxyt1>:last-child,.framer-aUOY9 .framer-14mocnn>:last-child,.framer-aUOY9 .framer-keiu5z>:last-child {
                         margin-bottom: 0
                     }
 
-                    .framer-nrlNQ .framer-hupp91>*,.framer-nrlNQ .framer-1q37574>*,.framer-nrlNQ .framer-9hvrsy>* {
+                    .framer-aUOY9 .framer-hupp91>*,.framer-aUOY9 .framer-1q37574>*,.framer-aUOY9 .framer-9hvrsy>* {
                         margin: 5px 0
                     }
 
-                    .framer-nrlNQ .framer-34jq0w>*,.framer-nrlNQ .framer-zn8iyw>*,.framer-nrlNQ .framer-1g5qlvg>*,.framer-nrlNQ .framer-keiu5z>* {
+                    .framer-aUOY9 .framer-34jq0w>*,.framer-aUOY9 .framer-zn8iyw>*,.framer-aUOY9 .framer-1g5qlvg>*,.framer-aUOY9 .framer-keiu5z>* {
                         margin: 10px 0
                     }
 
-                    .framer-nrlNQ .framer-r09xi>*,.framer-nrlNQ .framer-eq8d78>*,.framer-nrlNQ .framer-deixiy>*,.framer-nrlNQ .framer-1qi6w1m>*,.framer-nrlNQ .framer-14mocnn>* {
+                    .framer-aUOY9 .framer-r09xi>*,.framer-aUOY9 .framer-eq8d78>*,.framer-aUOY9 .framer-deixiy>*,.framer-aUOY9 .framer-1qi6w1m>*,.framer-aUOY9 .framer-14mocnn>* {
                         margin: 0
                     }
 
-                    .framer-nrlNQ .framer-14308p5>* {
+                    .framer-aUOY9 .framer-14308p5>* {
                         margin: 20px 0
                     }
 
-                    .framer-nrlNQ .framer-rpr30b>* {
+                    .framer-aUOY9 .framer-rpr30b>* {
                         margin: 15px 0
                     }
                 }
             }
 
             @media (min-width: 810px) and (max-width: 1199px) {
-                .framer-nrlNQ.framer-72rtr7 {
+                .framer-aUOY9.framer-72rtr7 {
                     width:810px
                 }
 
-                .framer-nrlNQ .framer-nvom3v {
+                .framer-aUOY9 .framer-nvom3v {
                     height: 80px
                 }
 
-                .framer-nrlNQ.framer-dz270j,.framer-nrlNQ.framer-1o6p7si,.framer-nrlNQ.framer-19ll7q8,.framer-nrlNQ.framer-1iabpw9 {
+                .framer-aUOY9.framer-dz270j,.framer-aUOY9.framer-1o6p7si,.framer-aUOY9.framer-19ll7q8,.framer-aUOY9.framer-1iabpw9 {
                     background-color: #ffffffdb
                 }
 
-                .framer-nrlNQ .framer-9hvrsy {
+                .framer-aUOY9 .framer-9hvrsy {
                     padding: 0 20px
                 }
 
-                .framer-nrlNQ .framer-fnarkm {
+                .framer-aUOY9 .framer-fnarkm {
                     height: 480px
                 }
 
-                .framer-nrlNQ .framer-19fpqfh {
+                .framer-aUOY9 .framer-19fpqfh {
                     height: 300px;
                     width: var(--framer-aspect-ratio-supported, 300px)
                 }
 
-                .framer-nrlNQ .framer-12z676r {
+                .framer-aUOY9 .framer-12z676r {
                     padding: 0 20px 0 0
                 }
 
-                .framer-nrlNQ .framer-nf723z,.framer-nrlNQ .framer-10tvzx2,.framer-nrlNQ .framer-rpr30b {
+                .framer-aUOY9 .framer-nf723z,.framer-aUOY9 .framer-10tvzx2,.framer-aUOY9 .framer-rpr30b {
                     padding: 60px 20px
                 }
 
-                .framer-nrlNQ .framer-1drq1o8 {
+                .framer-aUOY9 .framer-1drq1o8 {
                     height: min-content;
                     padding: 0
                 }
 
-                .framer-nrlNQ .framer-mkvy5m-container,.framer-nrlNQ .framer-1lftlqi-container,.framer-nrlNQ .framer-1gplpvd-container {
+                .framer-aUOY9 .framer-mkvy5m-container,.framer-aUOY9 .framer-1lftlqi-container,.framer-aUOY9 .framer-1gplpvd-container {
                     height: 350px
                 }
 
-                .framer-nrlNQ .framer-14nxyt1 {
+                .framer-aUOY9 .framer-14nxyt1 {
                     align-content: flex-start;
                     align-items: flex-start;
                     gap: 40px
                 }
 
-                .framer-nrlNQ .framer-a6go4n-container {
+                .framer-aUOY9 .framer-a6go4n-container {
                     right: unset;
                     width: 100%
                 }
 
-                .framer-nrlNQ.framer-12gtsdd-container {
+                .framer-aUOY9.framer-12gtsdd-container {
                     height: 500px;
                     left: calc(50.00000000000002% - min(100%,94.07407407407408%) / 2);
                     top: calc(50.00000000000002% - min(100%,500px) / 2);
                     width: 94%
                 }
 
-                .framer-nrlNQ .framer-63ebyq {
+                .framer-aUOY9 .framer-63ebyq {
                     border-radius: 60px;
                     padding: 40px;
                     width: 100%
                 }
 
-                .framer-nrlNQ .framer-vl98ry,.framer-nrlNQ .framer-1s5r6v8 {
+                .framer-aUOY9 .framer-vl98ry,.framer-aUOY9 .framer-1s5r6v8 {
                     width: 400px
                 }
 
-                .framer-nrlNQ .framer-17gl2i2 {
+                .framer-aUOY9 .framer-17gl2i2 {
                     bottom: -95px;
                     left: -27px;
                     right: -299px;
@@ -2521,19 +2616,19 @@
                 }
 
                 @supports (background: -webkit-named-image(i)) and (not (scale:1)) {
-                    .framer-nrlNQ .framer-14nxyt1 {
+                    .framer-aUOY9 .framer-14nxyt1 {
                         gap:0px
                     }
 
-                    .framer-nrlNQ .framer-14nxyt1>* {
+                    .framer-aUOY9 .framer-14nxyt1>* {
                         margin: 0 20px
                     }
 
-                    .framer-nrlNQ .framer-14nxyt1>:first-child {
+                    .framer-aUOY9 .framer-14nxyt1>:first-child {
                         margin-left: 0
                     }
 
-                    .framer-nrlNQ .framer-14nxyt1>:last-child {
+                    .framer-aUOY9 .framer-14nxyt1>:last-child {
                         margin-right: 0
                     }
                 }
@@ -3304,17 +3399,17 @@
         <!-- End of headEnd -->
     </head>
     <body>
-        <script async src="https://events.framer.com/script" data-fid="8268db215a0889a1b23867ebc5c86804b3c49a3bdf5c117055457d65da7ac62d"></script>
+        <script async src="https://events.framer.com/script?v=1" data-fid="8268db215a0889a1b23867ebc5c86804b3c49a3bdf5c117055457d65da7ac62d" data-no-nt></script>
         <!-- Start of bodyStart -->
         <!-- End of bodyStart -->
-        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;hwmje0&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199px)&quot;},{&quot;hash&quot;:&quot;r7wf2e&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809px)&quot;}]}" data-framer-ssr-released-at="2025-02-28T12:20:29.730Z" data-framer-page-optimized-at="2025-03-05T00:40:28.354Z">
+        <div id="main" data-framer-hydrate-v2="{&quot;routeId&quot;:&quot;augiA20Il&quot;,&quot;localeId&quot;:&quot;default&quot;,&quot;breakpoints&quot;:[{&quot;hash&quot;:&quot;72rtr7&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 1200px)&quot;},{&quot;hash&quot;:&quot;hwmje0&quot;,&quot;mediaQuery&quot;:&quot;(min-width: 810px) and (max-width: 1199px)&quot;},{&quot;hash&quot;:&quot;r7wf2e&quot;,&quot;mediaQuery&quot;:&quot;(max-width: 809px)&quot;}]}" data-framer-ssr-released-at="2025-04-10T16:28:59.823Z" data-framer-page-optimized-at="2025-04-12T23:32:52.757Z">
             <!--$-->
             <style data-framer-html-style>
                 html body {
                     background: rgb(255, 255, 255);
                 }
             </style>
-            <div data-framer-root class="framer-nrlNQ framer-Dxfdn framer-7iuy9 framer-ljKrk framer-XowBC framer-uchYA framer-72rtr7" style="min-height:100vh;width:auto">
+            <div data-framer-root class="framer-aUOY9 framer-Dxfdn framer-7iuy9 framer-ljKrk framer-XowBC framer-uchYA framer-72rtr7" style="min-height:100vh;width:auto">
                 <div class="framer-hupp91">
                     <div class="framer-11xv83k">
                         <div class="ssr-variant hidden-r7wf2e">
@@ -3324,7 +3419,7 @@
                                         <!--$-->
                                         <a class="framer-o4v84a framer-lux5qc" href="./" data-framer-page-link-current="true">
                                             <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                <img decoding="async" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                                                <img decoding="async" width="256" height="256" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
                                             </div>
                                         </a>
                                         <!--/$-->
@@ -3362,7 +3457,7 @@
                                         <!--$-->
                                         <a class="framer-o4v84a framer-lux5qc" href="./" data-framer-page-link-current="true">
                                             <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                <img decoding="async" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                                                <img decoding="async" width="256" height="256" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
                                             </div>
                                         </a>
                                         <!--/$-->
@@ -3447,14 +3542,14 @@
                             <div class="ssr-variant hidden-r7wf2e">
                                 <div class="framer-fnarkm" data-framer-appear-id="fnarkm" data-framer-name="Image">
                                     <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                        <img decoding="async" src="https://framerusercontent.com/images/qY9hbjsjaVSQMqypo3RKFaQUUSw.png" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                                        <img decoding="async" width="1024" height="1024" src="https://framerusercontent.com/images/qY9hbjsjaVSQMqypo3RKFaQUUSw.png" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
                                     </div>
                                 </div>
                             </div>
                             <div class="ssr-variant hidden-hwmje0 hidden-72rtr7">
                                 <div class="framer-fnarkm" data-framer-appear-id="fnarkm" data-framer-name="Image" style="opacity:0.001;will-change:transform;transform:translateY(150px)">
                                     <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                        <img decoding="async" src="https://framerusercontent.com/images/qY9hbjsjaVSQMqypo3RKFaQUUSw.png" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                                        <img decoding="async" width="1024" height="1024" src="https://framerusercontent.com/images/qY9hbjsjaVSQMqypo3RKFaQUUSw.png" alt="Лидогенерация для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
                                     </div>
                                 </div>
                             </div>
@@ -3468,21 +3563,21 @@
                                 <div class="ssr-variant hidden-hwmje0 hidden-r7wf2e">
                                     <div class="framer-19fpqfh">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="400px">
+                                            <img decoding="async" loading="lazy" width="1155" height="1280" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="400px">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ssr-variant hidden-72rtr7 hidden-r7wf2e">
                                     <div class="framer-19fpqfh">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="300px">
+                                            <img decoding="async" loading="lazy" width="1155" height="1280" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="300px">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ssr-variant hidden-hwmje0 hidden-72rtr7">
                                     <div class="framer-19fpqfh">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="200px">
+                                            <img decoding="async" loading="lazy" width="1155" height="1280" sizes="(min-width: 1200px) 400px, (min-width: 810px) and (max-width: 1199px) 300px, (max-width: 809px) 200px" srcset="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg?scale-down-to=1024 924w,https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg 1155w" src="https://framerusercontent.com/images/xUthEBPjTLPwToeyZd99wYRu3E.jpg" alt="Привлечение пациентов в стоматологию" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="200px">
                                         </div>
                                     </div>
                                 </div>
@@ -3534,7 +3629,7 @@
                                 <div class="framer-3nx58g-container">
                                     <figure class="framer-iuZBz framer-1imw29d framer-v-1imw29d" data-framer-name="Variant 1" style="border-bottom-left-radius:90px;border-bottom-right-radius:90px;border-top-left-radius:90px;border-top-right-radius:90px;box-shadow:0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.17997), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.15889), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.0625);height:100%;width:100%">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(100vw, 1200px) / 2)">
+                                            <img decoding="async" loading="lazy" width="740" height="570" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(100vw, 1200px) / 2)">
                                         </div>
                                     </figure>
                                 </div>
@@ -3622,7 +3717,7 @@
                                 <div class="framer-3nx58g-container">
                                     <figure class="framer-iuZBz framer-1imw29d framer-v-1imw29d" data-framer-name="Variant 1" style="border-bottom-left-radius:90px;border-bottom-right-radius:90px;border-top-left-radius:90px;border-top-right-radius:90px;box-shadow:0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.17997), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.15889), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.0625);height:100%;width:100%">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(min(100vw, 1200px) - 40px, 1200px) / 2)">
+                                            <img decoding="async" loading="lazy" width="740" height="570" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(min(100vw, 1200px) - 40px, 1200px) / 2)">
                                         </div>
                                     </figure>
                                 </div>
@@ -3710,7 +3805,7 @@
                                 <div class="framer-3nx58g-container">
                                     <figure class="framer-iuZBz framer-1imw29d framer-v-qmsqtp" data-framer-name="Variant 2" style="border-bottom-left-radius:60px;border-bottom-right-radius:60px;border-top-left-radius:60px;border-top-right-radius:60px;box-shadow:0px 0.6021873017743928px 0.6021873017743928px -1.25px rgba(0, 0, 0, 0.17997), 0px 2.288533303243457px 2.288533303243457px -2.5px rgba(0, 0, 0, 0.15889), 0px 10px 10px -3.75px rgba(0, 0, 0, 0.0625);height:100%;width:100%">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="min(min(100vw, 1200px) - 40px, 1200px)">
+                                            <img decoding="async" loading="lazy" width="740" height="570" sizes="(min-width: 1200px) calc(min(100vw, 1200px) / 2), (min-width: 810px) and (max-width: 1199px) calc(min(min(100vw, 1200px) - 40px, 1200px) / 2), (max-width: 809px) min(min(100vw, 1200px) - 40px, 1200px)" srcset="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg?scale-down-to=512 512w,https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg 1000w" src="https://framerusercontent.com/images/OKBfwI99bopCRPVcnAVUDargY.jpg" alt="Целевая аудитория стоматологических клиник" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="min(min(100vw, 1200px) - 40px, 1200px)">
                                         </div>
                                     </figure>
                                 </div>
@@ -3936,7 +4031,7 @@
                                                 <h4 class="framer-text framer-styles-preset-9veizk" data-styles-preset="G2tP7ADNH">Рекламный бюджет</h4>
                                             </div>
                                             <div class="framer-zwxy8m" data-framer-name="Text" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
-                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 10 000 ₽ в неделю. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
+                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 100 000 ₽ в месяц. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
                                             </div>
                                         </div>
                                         <div class="framer-5lndsb" data-framer-name="Image" style="background-color:rgba(0, 0, 0, 0);opacity:0;transform:translate(-50%, -50%)">
@@ -3957,7 +4052,7 @@
                                                 <h4 class="framer-text framer-styles-preset-9veizk" data-styles-preset="G2tP7ADNH">Рекламный бюджет</h4>
                                             </div>
                                             <div class="framer-zwxy8m" data-framer-name="Text" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
-                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 10 000 ₽ в неделю. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
+                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 100 000 ₽ в месяц. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
                                             </div>
                                         </div>
                                         <div class="framer-5lndsb" data-framer-name="Image" style="background-color:rgba(0, 0, 0, 0);opacity:0;transform:translate(-50%, -50%)">
@@ -3978,7 +4073,7 @@
                                                 <h4 class="framer-text framer-styles-preset-9veizk" data-styles-preset="G2tP7ADNH">Рекламный бюджет</h4>
                                             </div>
                                             <div class="framer-zwxy8m" data-framer-name="Text" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
-                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 10 000 ₽ в неделю. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
+                                                <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Минимальный рекламный бюджет  — от 100 000 ₽ в месяц. Бюджет полностью под вашим контролем, рекламные кампании ведутся в вашем личном кабинете, где вы видите все расходы и результаты в &nbsp;реальном времени.</p>
                                             </div>
                                         </div>
                                         <div class="framer-5lndsb" data-framer-name="Image" style="background-color:rgba(0, 0, 0, 0);opacity:0;transform:translate(-50%, -50%)">
@@ -4067,21 +4162,21 @@
                             <div class="ssr-variant hidden-hwmje0 hidden-r7wf2e">
                                 <div class="framer-frtkqd" data-framer-name="Image" id="frtkqd" tabindex="0">
                                     <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                        <img decoding="async" loading="lazy" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill" data-framer-original-sizes="max((min(100vw, 1200px) - 160px) / 2, 1px)">
+                                        <img decoding="async" loading="lazy" width="1817" height="916" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill" data-framer-original-sizes="max((min(100vw, 1200px) - 160px) / 2, 1px)">
                                     </div>
                                 </div>
                             </div>
                             <div class="ssr-variant hidden-72rtr7 hidden-r7wf2e">
                                 <div class="framer-frtkqd" data-framer-name="Image" id="frtkqd" tabindex="0">
                                     <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                        <img decoding="async" loading="lazy" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill" data-framer-original-sizes="max((min(100vw, 1200px) - 80px) / 2, 1px)">
+                                        <img decoding="async" loading="lazy" width="1817" height="916" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:fill" data-framer-original-sizes="max((min(100vw, 1200px) - 80px) / 2, 1px)">
                                     </div>
                                 </div>
                             </div>
                             <div class="ssr-variant hidden-hwmje0 hidden-72rtr7">
                                 <div class="framer-frtkqd" data-framer-name="Image" id="frtkqd" tabindex="0">
                                     <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                        <img decoding="async" loading="lazy" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain" data-framer-original-sizes="calc(min(100vw, 1200px) - 40px)">
+                                        <img decoding="async" loading="lazy" width="1817" height="916" sizes="(min-width: 1200px) max((min(100vw, 1200px) - 160px) / 2, 1px), (min-width: 810px) and (max-width: 1199px) max((min(100vw, 1200px) - 80px) / 2, 1px), (max-width: 809px) calc(min(100vw, 1200px) - 40px)" srcset="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=512 512w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png 1817w" src="https://framerusercontent.com/images/UxCM0hAGjPhVMo5Sp2E2Iln0E0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:contain" data-framer-original-sizes="calc(min(100vw, 1200px) - 40px)">
                                     </div>
                                 </div>
                             </div>
@@ -4108,24 +4203,31 @@
                                     <div class="ssr-variant hidden-hwmje0 hidden-r7wf2e">
                                         <section style="display:flex;overflow:hidden;width:100%;height:100%;position:relative;padding:10px" aria-roledescription="carousel">
                                             <ul style="padding:0;margin:0;list-style:none;position:relative;display:flex;flex:1 1 100%;width:100%;height:100%;gap:10px;align-items:center;flex-direction:row;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:0" class="framer--carousel" data-show-scrollbar="false" aria-atomic="false" aria-live="polite">
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="1 of 3">
-                                                    <div class="framer-1l9upba" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="1 of 4">
+                                                    <div class="framer-1l9upba" data-framer-name="Image2" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1440" height="932" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="2 of 3">
-                                                    <div class="framer-170whsu" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="2 of 4">
+                                                    <div class="framer-170whsu" data-framer-name="Image1" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1445" height="1000" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="3 of 3">
-                                                    <div class="framer-1foiewq" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="3 of 4">
+                                                    <div class="framer-1foiewq" data-framer-name="Image3" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1485" height="919" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="4 of 4">
+                                                    <div class="framer-tfpc4a" data-framer-name="Image4" style="width:100%;height:100%">
+                                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                                            <img decoding="async" width="1837" height="925" src="https://framerusercontent.com/images/F3dzuYhyOiiCD6T3lWmndNAzF0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
@@ -4164,24 +4266,31 @@
                                     <div class="ssr-variant hidden-72rtr7 hidden-r7wf2e">
                                         <section style="display:flex;overflow:hidden;width:100%;height:100%;position:relative;padding:10px" aria-roledescription="carousel">
                                             <ul style="padding:0;margin:0;list-style:none;position:relative;display:flex;flex:1 1 100%;width:100%;height:100%;gap:10px;align-items:center;flex-direction:row;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:0" class="framer--carousel" data-show-scrollbar="false" aria-atomic="false" aria-live="polite">
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="1 of 3">
-                                                    <div class="framer-1l9upba" data-framer-name="Image" style="width:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="1 of 4">
+                                                    <div class="framer-1l9upba" data-framer-name="Image2" style="width:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1440" height="932" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="2 of 3">
-                                                    <div class="framer-170whsu" data-framer-name="Image" style="width:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="2 of 4">
+                                                    <div class="framer-170whsu" data-framer-name="Image1" style="width:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1445" height="1000" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="3 of 3">
-                                                    <div class="framer-1foiewq" data-framer-name="Image" style="width:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="3 of 4">
+                                                    <div class="framer-1foiewq" data-framer-name="Image3" style="width:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1485" height="919" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px)" aria-label="4 of 4">
+                                                    <div class="framer-tfpc4a" data-framer-name="Image4" style="width:100%">
+                                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                                            <img decoding="async" width="1837" height="925" src="https://framerusercontent.com/images/F3dzuYhyOiiCD6T3lWmndNAzF0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
@@ -4220,24 +4329,31 @@
                                     <div class="ssr-variant hidden-hwmje0 hidden-72rtr7">
                                         <section style="display:flex;overflow:hidden;width:100%;height:100%;position:relative;padding:10px" aria-roledescription="carousel">
                                             <ul style="padding:0;margin:0;list-style:none;position:relative;display:flex;flex:1 1 100%;width:100%;height:100%;gap:10px;align-items:center;flex-direction:row;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:0" class="framer--carousel" data-show-scrollbar="false" aria-atomic="false" aria-live="polite">
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="1 of 3">
-                                                    <div class="framer-1l9upba" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="1 of 4">
+                                                    <div class="framer-1l9upba" data-framer-name="Image2" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1440" height="932" src="https://framerusercontent.com/images/uv2Dqp80bFZsIND1cEZFjbmLKA.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="2 of 3">
-                                                    <div class="framer-170whsu" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="2 of 4">
+                                                    <div class="framer-170whsu" data-framer-name="Image1" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1445" height="1000" src="https://framerusercontent.com/images/7H3Zt1isTQM1JtNZQAfWrQyDk.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
-                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="3 of 3">
-                                                    <div class="framer-1foiewq" data-framer-name="Image" style="width:100%;height:100%">
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="3 of 4">
+                                                    <div class="framer-1foiewq" data-framer-name="Image3" style="width:100%;height:100%">
                                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                                            <img decoding="async" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                            <img decoding="async" width="1485" height="919" src="https://framerusercontent.com/images/lZMgHaMuFtUjyL9OvxIIQxFbRw.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li style="scroll-snap-align:center;flex-shrink:0;scroll-snap-stop:always;width:calc(100% - 0px);height:calc(100% - 0px)" aria-label="4 of 4">
+                                                    <div class="framer-tfpc4a" data-framer-name="Image4" style="width:100%;height:100%">
+                                                        <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
+                                                            <img decoding="async" width="1837" height="925" src="https://framerusercontent.com/images/F3dzuYhyOiiCD6T3lWmndNAzF0.png" alt style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center top;object-fit:cover">
                                                         </div>
                                                     </div>
                                                 </li>
@@ -4281,7 +4397,7 @@
                                     <h4 class="framer-text framer-styles-preset-9veizk" data-styles-preset="G2tP7ADNH">Пример посадочной страницы</h4>
                                 </div>
                                 <div class="framer-1l6paij" style="outline:none;display:flex;flex-direction:column;justify-content:flex-start;flex-shrink:0;transform:none" data-framer-component-type="RichTextContainer">
-                                    <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Главный экран лендинга, идеально подходящего для стоматологических услуг. Продуманная структура и сильный оффер помогают превращать посетителей в пациентов.</p>
+                                    <p class="framer-text framer-styles-preset-1iatvp1" data-styles-preset="BRL2_bt3R">Продуманная продающая структура и мощный оффер конвертируют посетителей в пациентов. Примеры рабочих сайтов отправляю только реальным заказчикам из стоматологии!</p>
                                 </div>
                             </div>
                         </div>
@@ -4338,21 +4454,21 @@
                                 <div class="ssr-variant hidden-hwmje0 hidden-r7wf2e">
                                     <div class="framer-17gl2i2" data-framer-name="55" style="transform:rotate(12deg)">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="731px">
+                                            <img decoding="async" loading="lazy" width="1680" height="881" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="731px">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ssr-variant hidden-72rtr7 hidden-r7wf2e">
                                     <div class="framer-17gl2i2" data-framer-name="55" style="transform:rotate(20deg)">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(max(100vw, 1px), 1200px) / 2 + 326px)">
+                                            <img decoding="async" loading="lazy" width="1680" height="881" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="calc(min(max(100vw, 1px), 1200px) / 2 + 326px)">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="ssr-variant hidden-hwmje0 hidden-72rtr7">
                                     <div class="framer-17gl2i2" data-framer-name="55" style="transform:rotate(16deg)">
                                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                                            <img decoding="async" loading="lazy" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="329px">
+                                            <img decoding="async" loading="lazy" width="1680" height="881" sizes="(min-width: 1200px) 731px, (min-width: 810px) and (max-width: 1199px) calc(min(max(100vw, 1px), 1200px) / 2 + 326px), (max-width: 809px) 329px" srcset="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=512 512w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png?scale-down-to=1024 1024w,https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png 1680w" src="https://framerusercontent.com/images/dCRv8Dqp02IKW160BcovfAHEMlw.png" alt="Контекстная реклама для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover" data-framer-original-sizes="329px">
                                         </div>
                                     </div>
                                 </div>
@@ -4401,7 +4517,7 @@
                     <!--$-->
                     <a class="framer-8cc5yo framer-lux5qc" href="https://ax-g.net/" target="_blank" rel="noopener">
                         <div style="position:absolute;border-radius:inherit;top:0;right:0;bottom:0;left:0" data-framer-background-image-wrapper="true">
-                            <img decoding="async" loading="lazy" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Маркетинг для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
+                            <img decoding="async" loading="lazy" width="256" height="256" src="https://framerusercontent.com/images/Vazk1Zrs7l98dBy7c4jdZEa7AcY.svg" alt="Маркетинг для стоматологий" style="display:block;width:100%;height:100%;border-radius:inherit;object-position:center;object-fit:cover">
                         </div>
                     </a>
                     <!--/$-->
@@ -4493,72 +4609,40 @@
         </script>
         <div id="__framer-badge-container"></div>
         <script>
-            "use strict";
             var animator = ( () => {
-                var z = Object.defineProperty;
-                var ve = Object.getOwnPropertyDescriptor;
-                var Oe = Object.getOwnPropertyNames;
-                var Se = Object.prototype.hasOwnProperty;
-                var ke = (e, t) => {
-                    for (var n in t)
-                        z(e, n, {
-                            get: t[n],
-                            enumerable: !0
-                        })
-                }
-                  , Pe = (e, t, n, o) => {
-                    if (t && typeof t == "object" || typeof t == "function")
-                        for (let f of Oe(t))
-                            !Se.call(e, f) && f !== n && z(e, f, {
-                                get: () => t[f],
-                                enumerable: !(o = ve(t, f)) || o.enumerable
-                            });
-                    return e
-                }
-                ;
-                var De = e => Pe(z({}, "__esModule", {
-                    value: !0
-                }), e);
-                var nt = {};
-                ke(nt, {
-                    animateAppearEffects: () => Me,
-                    getActiveVariantHash: () => Te,
-                    spring: () => P,
-                    startOptimizedAppearAnimation: () => N
-                });
-                var Ie = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
-                  , W = new Set(Ie);
+                var be = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
+                  , q = new Set(be);
                 var S = e => e * 1e3
                   , k = e => e / 1e3;
                 var E = e => e;
-                var H = E;
-                var B = (e, t, n) => n > t ? t : n < e ? e : n;
-                function U(e, t) {
+                var W = E;
+                var z = (e, t, n) => n > t ? t : n < e ? e : n;
+                function H(e, t) {
                     return t ? e * (1e3 / t) : 0
                 }
-                var Ke = 5;
-                function Q(e, t, n) {
-                    let o = Math.max(t - Ke, 0);
-                    return U(n - e(o), t - o)
+                var ve = 5;
+                function U(e, t, n) {
+                    let o = Math.max(t - ve, 0);
+                    return H(n - e(o), t - o)
                 }
-                var L = .001
-                  , Ee = .01
-                  , J = 10
-                  , Ce = .05
-                  , Ve = 1;
-                function ee({duration: e=800, bounce: t=.25, velocity: n=0, mass: o=1}) {
+                var B = .001
+                  , Oe = .01
+                  , Q = 10
+                  , Se = .05
+                  , ke = 1;
+                function J({duration: e=800, bounce: t=.25, velocity: n=0, mass: o=1}) {
                     let f, r;
-                    H(e <= S(J), "Spring duration must be 10 seconds or less");
+                    W(e <= S(Q), "Spring duration must be 10 seconds or less");
                     let a = 1 - t;
-                    a = B(Ce, Ve, a),
-                    e = B(Ee, J, k(e)),
+                    a = z(Se, ke, a),
+                    e = z(Oe, Q, k(e)),
                     a < 1 ? (f = s => {
                         let p = s * a
                           , c = p * e
                           , u = p - n
                           , l = C(s, a)
                           , d = Math.exp(-c);
-                        return L - u / l * d
+                        return B - u / l * d
                     }
                     ,
                     r = s => {
@@ -4567,12 +4651,12 @@
                           , l = Math.pow(a, 2) * Math.pow(s, 2) * e
                           , d = Math.exp(-c)
                           , g = C(Math.pow(s, 2), a);
-                        return (-f(s) + L > 0 ? -1 : 1) * ((u - l) * d) / g
+                        return (-f(s) + B > 0 ? -1 : 1) * ((u - l) * d) / g
                     }
                     ) : (f = s => {
                         let p = Math.exp(-s * e)
                           , c = (s - n) * e + 1;
-                        return -L + p * c
+                        return -B + p * c
                     }
                     ,
                     r = s => {
@@ -4582,7 +4666,7 @@
                     }
                     );
                     let m = 5 / e
-                      , i = ze(f, r, m);
+                      , i = De(f, r, m);
                     if (e = S(e),
                     isNaN(i))
                         return {
@@ -4599,22 +4683,22 @@
                         }
                     }
                 }
-                var $e = 12;
-                function ze(e, t, n) {
+                var Pe = 12;
+                function De(e, t, n) {
                     let o = n;
-                    for (let f = 1; f < $e; f++)
+                    for (let f = 1; f < Pe; f++)
                         o = o - e(o) / t(o);
                     return o
                 }
                 function C(e, t) {
                     return e * Math.sqrt(1 - t * t)
                 }
-                var Be = ["duration", "bounce"]
-                  , Le = ["stiffness", "damping", "mass"];
-                function te(e, t) {
+                var Ie = ["duration", "bounce"]
+                  , Ke = ["stiffness", "damping", "mass"];
+                function ee(e, t) {
                     return t.some(n => e[n] !== void 0)
                 }
-                function Re(e) {
+                function Ee(e) {
                     let t = {
                         velocity: 0,
                         stiffness: 100,
@@ -4623,8 +4707,8 @@
                         isResolvedFromDuration: !1,
                         ...e
                     };
-                    if (!te(e, Le) && te(e, Be)) {
-                        let n = ee(e);
+                    if (!ee(e, Ke) && ee(e, Ie)) {
+                        let n = J(e);
                         t = {
                             ...t,
                             ...n,
@@ -4641,7 +4725,7 @@
                         done: !1,
                         value: f
                     }
-                      , {stiffness: m, damping: i, mass: s, duration: p, velocity: c, isResolvedFromDuration: u} = Re({
+                      , {stiffness: m, damping: i, mass: s, duration: p, velocity: c, isResolvedFromDuration: u} = Ee({
                         ...o,
                         velocity: -k(o.velocity || 0)
                     })
@@ -4677,47 +4761,47 @@
                                 a.done = x >= p;
                             else {
                                 let T = 0;
-                                d < 1 && (T = x === 0 ? S(l) : Q(h, x, A));
+                                d < 1 && (T = x === 0 ? S(l) : U(h, x, A));
                                 let K = Math.abs(T) <= n
-                                  , be = Math.abs(r - A) <= t;
-                                a.done = K && be
+                                  , Te = Math.abs(r - A) <= t;
+                                a.done = K && Te
                             }
                             return a.value = a.done ? r : A,
                             a
                         }
                     }
                 }
-                var ne = e => Array.isArray(e) && typeof e[0] == "number";
-                var oe = (e, t, n) => {
+                var te = e => Array.isArray(e) && typeof e[0] == "number";
+                var ne = (e, t, n) => {
                     let o = t - e;
                     return o === 0 ? 1 : (n - e) / o
                 }
                 ;
-                var Fe = 10
-                  , re = (e, t) => {
+                var Ce = 10
+                  , oe = (e, t) => {
                     let n = ""
-                      , o = Math.max(Math.round(t / Fe), 2);
+                      , o = Math.max(Math.round(t / Ce), 2);
                     for (let f = 0; f < o; f++)
-                        n += e(oe(0, o - 1, f)) + ", ";
+                        n += e(ne(0, o - 1, f)) + ", ";
                     return `linear(${n.substring(0, n.length - 2)})`
                 }
                 ;
-                function ie(e) {
+                function re(e) {
                     let t;
                     return () => (t === void 0 && (t = e()),
                     t)
                 }
-                var se = {
+                var ie = {
                     linearEasing: void 0
                 };
-                function ae(e, t) {
-                    let n = ie(e);
+                function se(e, t) {
+                    let n = re(e);
                     return () => {
                         var o;
-                        return (o = se[t]) !== null && o !== void 0 ? o : n()
+                        return (o = ie[t]) !== null && o !== void 0 ? o : n()
                     }
                 }
-                var pe = ae( () => {
+                var ae = se( () => {
                     try {
                         document.createElement("div").animate({
                             opacity: 0
@@ -4731,7 +4815,7 @@
                 }
                 , "linearEasing");
                 var D = ([e,t,n,o]) => `cubic-bezier(${e}, ${t}, ${n}, ${o})`
-                  , fe = {
+                  , pe = {
                     linear: "linear",
                     ease: "ease",
                     easeIn: "ease-in",
@@ -4742,16 +4826,16 @@
                     backIn: D([.31, .01, .66, -.59]),
                     backOut: D([.33, 1.53, .69, .99])
                 };
-                function R(e, t) {
+                function L(e, t) {
                     if (e)
-                        return typeof e == "function" && pe() ? re(e, t) : ne(e) ? D(e) : Array.isArray(e) ? e.map(n => R(n, t) || fe.easeOut) : fe[e]
+                        return typeof e == "function" && ae() ? oe(e, t) : te(e) ? D(e) : Array.isArray(e) ? e.map(n => L(n, t) || pe.easeOut) : pe[e]
                 }
-                function F(e, t, n, {delay: o=0, duration: f=300, repeat: r=0, repeatType: a="loop", ease: m, times: i}={}) {
+                function R(e, t, n, {delay: o=0, duration: f=300, repeat: r=0, repeatType: a="loop", ease: m, times: i}={}) {
                     let s = {
                         [t]: n
                     };
                     i && (s.offset = i);
-                    let p = R(m, f);
+                    let p = L(m, f);
                     return Array.isArray(p) && (s.easing = p),
                     e.animate(s, {
                         delay: o,
@@ -4762,20 +4846,20 @@
                         direction: a === "reverse" ? "alternate" : "normal"
                     })
                 }
-                var me = e => e.replace(/([a-z])([A-Z])/gu, "$1-$2").toLowerCase();
-                var X = "framerAppearId"
-                  , ce = "data-" + me(X);
-                function ue(e) {
-                    return e.props[ce]
+                var fe = e => e.replace(/([a-z])([A-Z])/gu, "$1-$2").toLowerCase();
+                var F = "framerAppearId"
+                  , me = "data-" + fe(F);
+                function ce(e) {
+                    return e.props[me]
                 }
                 var b = (e, t) => {
-                    let n = W.has(t) ? "transform" : t;
+                    let n = q.has(t) ? "transform" : t;
                     return `${e}: ${n}`
                 }
                 ;
                 var w = new Map
                   , v = new Map;
-                function Y(e, t, n) {
+                function X(e, t, n) {
                     var o;
                     let f = b(e, t)
                       , r = w.get(f);
@@ -4790,24 +4874,24 @@
                     m === null || !((o = window.MotionHandoffIsComplete) === null || o === void 0) && o.call(window, e) ? (i(),
                     null) : m
                 }
-                var V, O, j = new Set;
-                function Xe() {
-                    j.forEach(e => {
+                var V, O, Y = new Set;
+                function Ve() {
+                    Y.forEach(e => {
                         e.animation.play(),
                         e.animation.startTime = e.startTime
                     }
                     ),
-                    j.clear()
+                    Y.clear()
                 }
-                function N(e, t, n, o, f) {
+                function j(e, t, n, o, f) {
                     if (window.MotionIsMounted)
                         return;
-                    let r = e.dataset[X];
+                    let r = e.dataset[F];
                     if (!r)
                         return;
-                    window.MotionHandoffAnimation = Y;
+                    window.MotionHandoffAnimation = X;
                     let a = b(r, t);
-                    O || (O = F(e, t, [n[0], n[0]], {
+                    O || (O = R(e, t, [n[0], n[0]], {
                         duration: 1e4,
                         ease: "linear"
                     }),
@@ -4815,7 +4899,7 @@
                         animation: O,
                         startTime: null
                     }),
-                    window.MotionHandoffAnimation = Y,
+                    window.MotionHandoffAnimation = X,
                     window.MotionHasOptimisedAnimation = (i, s) => {
                         if (!i)
                             return !1;
@@ -4840,14 +4924,14 @@
                             )
                         }
                         ) : l.animation.cancel(),
-                        p && c ? (j.add(l),
-                        p.render(Xe)) : (w.delete(u),
+                        p && c ? (Y.add(l),
+                        p.render(Ve)) : (w.delete(u),
                         w.size || (window.MotionCancelOptimisedAnimation = void 0)))
                     }
                     ,
                     window.MotionCheckAppearSync = (i, s, p) => {
                         var c, u;
-                        let l = ue(i);
+                        let l = ce(i);
                         if (!l)
                             return;
                         let d = (c = window.MotionHasOptimisedAnimation) === null || c === void 0 ? void 0 : c.call(window, l, s)
@@ -4865,7 +4949,7 @@
                     );
                     let m = () => {
                         O.cancel();
-                        let i = F(e, t, n, o);
+                        let i = R(e, t, n, o);
                         V === void 0 && (V = performance.now()),
                         i.startTime = V,
                         w.set(a, {
@@ -4878,14 +4962,14 @@
                     v.set(r, !1),
                     O.ready ? O.ready.then(m).catch(E) : m()
                 }
-                var G = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
-                  , Ye = {
+                var N = ["transformPerspective", "x", "y", "z", "translateX", "translateY", "translateZ", "scale", "scaleX", "scaleY", "rotate", "rotateX", "rotateY", "rotateZ", "skew", "skewX", "skewY"]
+                  , $e = {
                     x: "translateX",
                     y: "translateY",
                     z: "translateZ",
                     transformPerspective: "perspective"
                 }
-                  , je = {
+                  , ze = {
                     translateX: "px",
                     translateY: "px",
                     translateZ: "px",
@@ -4898,38 +4982,38 @@
                     rotateX: "deg",
                     rotateY: "deg"
                 };
-                function le(e, t) {
-                    let n = je[e];
+                function ue(e, t) {
+                    let n = ze[e];
                     return !n || typeof t == "string" && t.endsWith(n) ? t : `${t}${n}`
                 }
-                function _(e) {
-                    return G.includes(e)
+                function G(e) {
+                    return N.includes(e)
                 }
-                var Ne = (e, t) => G.indexOf(e) - G.indexOf(t);
-                function de({transform: e, transformKeys: t}, n) {
+                var Be = (e, t) => N.indexOf(e) - N.indexOf(t);
+                function le({transform: e, transformKeys: t}, n) {
                     let o = {}
                       , f = !0
                       , r = "";
-                    t.sort(Ne);
+                    t.sort(Be);
                     for (let a of t) {
                         let m = e[a]
                           , i = !0;
                         typeof m == "number" ? i = m === (a.startsWith("scale") ? 1 : 0) : i = parseFloat(m) === 0,
                         i || (f = !1,
-                        r += `${Ye[a] || a}(${e[a]}) `),
+                        r += `${$e[a] || a}(${e[a]}) `),
                         n && (o[a] = e[a])
                     }
                     return r = r.trim(),
                     n ? r = n(o, r) : f && (r = "none"),
                     r
                 }
-                function Z(e, t) {
+                function _(e, t) {
                     let n = new Set(Object.keys(e));
                     for (let o in t)
                         n.add(o);
                     return Array.from(n)
                 }
-                function q(e, t) {
+                function Z(e, t) {
                     let n = t - e.length;
                     if (n <= 0)
                         return e;
@@ -4939,7 +5023,7 @@
                 function I(e) {
                     return e * 1e3
                 }
-                var ye = {
+                var ge = {
                     duration: .001
                 }
                   , $ = {
@@ -4955,21 +5039,21 @@
                     rotateX: 0,
                     rotateY: 0
                 };
-                function Ae(e, t, n, o, f) {
+                function ye(e, t, n, o, f) {
                     return n.delay && (n.delay = I(n.delay)),
-                    n.type === "spring" ? _e(e, t, n, o, f) : qe(e, t, n, o, f)
+                    n.type === "spring" ? Re(e, t, n, o, f) : Xe(e, t, n, o, f)
                 }
-                function Ge(e, t, n) {
+                function Le(e, t, n) {
                     let o = {}
                       , f = 0
                       , r = 0;
-                    for (let a of Z(e, t)) {
+                    for (let a of _(e, t)) {
                         let m = e[a] ?? $[a]
                           , i = t[a] ?? $[a];
                         if (m === void 0 || i === void 0 || a !== "transformPerspective" && m === i)
                             continue;
                         a === "transformPerspective" && (o[a] = [m, i]);
-                        let s = Je(m, i, n)
+                        let s = _e(m, i, n)
                           , {duration: p, keyframes: c} = s;
                         p === void 0 || c === void 0 || (p > f && (f = p,
                         r = c.length),
@@ -4981,9 +5065,9 @@
                         longestLength: r
                     }
                 }
-                function _e(e, t, n, o, f) {
+                function Re(e, t, n, o, f) {
                     let r = {}
-                      , {keyframeValuesByProps: a, longestDuration: m, longestLength: i} = Ge(e, t, n);
+                      , {keyframeValuesByProps: a, longestDuration: m, longestLength: i} = Le(e, t, n);
                     if (!i)
                         return r;
                     let s = {
@@ -4991,73 +5075,73 @@
                         duration: m,
                         delay: n.delay
                     }
-                      , p = f ? ye : s
+                      , p = f ? ge : s
                       , c = {};
                     for (let[l,d] of Object.entries(a))
-                        _(l) ? c[l] = q(d, i) : r[l] = {
-                            keyframes: q(d, i),
+                        G(l) ? c[l] = Z(d, i) : r[l] = {
+                            keyframes: Z(d, i),
                             options: l === "opacity" ? s : p
                         };
-                    let u = we(c, o);
+                    let u = he(c, o);
                     return u && (r.transform = {
                         keyframes: u,
                         options: p
                     }),
                     r
                 }
-                function Ze(e) {
+                function Fe(e) {
                     let {type: t, duration: n, ...o} = e;
                     return {
                         duration: I(n),
                         ...o
                     }
                 }
-                function qe(e, t, n, o, f) {
-                    let r = Ze(n);
+                function Xe(e, t, n, o, f) {
+                    let r = Fe(n);
                     if (!r)
                         return;
                     let a = {}
-                      , m = f ? ye : r
+                      , m = f ? ge : r
                       , i = {};
-                    for (let p of Z(e, t)) {
+                    for (let p of _(e, t)) {
                         let c = e[p] ?? $[p]
                           , u = t[p] ?? $[p];
-                        c === void 0 || u === void 0 || p !== "transformPerspective" && c === u || (_(p) ? i[p] = [c, u] : a[p] = {
+                        c === void 0 || u === void 0 || p !== "transformPerspective" && c === u || (G(p) ? i[p] = [c, u] : a[p] = {
                             keyframes: [c, u],
                             options: p === "opacity" ? r : m
                         })
                     }
-                    let s = we(i, o);
+                    let s = he(i, o);
                     return s && (a.transform = {
                         keyframes: s,
                         options: m
                     }),
                     a
                 }
-                var We = ["duration", "bounce"]
-                  , He = ["stiffness", "damping", "mass"];
-                function he(e) {
-                    return He.some(t => t in e) ? !1 : We.some(t => t in e)
+                var Ye = ["duration", "bounce"]
+                  , je = ["stiffness", "damping", "mass"];
+                function Ae(e) {
+                    return je.some(t => t in e) ? !1 : Ye.some(t => t in e)
                 }
-                function Ue(e, t, n) {
-                    return he(n) ? `${e}-${t}-${n.duration}-${n.bounce}` : `${e}-${t}-${n.damping}-${n.stiffness}-${n.mass}`
+                function Ne(e, t, n) {
+                    return Ae(n) ? `${e}-${t}-${n.duration}-${n.bounce}` : `${e}-${t}-${n.damping}-${n.stiffness}-${n.mass}`
                 }
-                function Qe(e) {
-                    return he(e) ? {
+                function Ge(e) {
+                    return Ae(e) ? {
                         ...e,
                         duration: I(e.duration)
                     } : e
                 }
-                var xe = new Map
-                  , ge = 10;
-                function Je(e, t, n) {
-                    let o = Ue(e, t, n)
-                      , f = xe.get(o);
+                var de = new Map
+                  , xe = 10;
+                function _e(e, t, n) {
+                    let o = Ne(e, t, n)
+                      , f = de.get(o);
                     if (f)
                         return f;
                     let r = [e, t]
                       , a = P({
-                        ...Qe(n),
+                        ...Ge(n),
                         keyframes: r
                     })
                       , m = {
@@ -5069,18 +5153,18 @@
                     for (; !m.done && s < I(10); )
                         m = a.next(s),
                         i.push(m.value),
-                        s += ge;
+                        s += xe;
                     r = i;
-                    let p = s - ge
+                    let p = s - xe
                       , u = {
                         keyframes: r,
                         duration: p,
                         ease: "linear"
                     };
-                    return xe.set(o, u),
+                    return de.set(o, u),
                     u
                 }
-                function we(e, t) {
+                function he(e, t) {
                     let n = []
                       , o = Object.values(e)[0]?.length;
                     if (!o)
@@ -5090,9 +5174,9 @@
                         let a = {};
                         for (let[i,s] of Object.entries(e)) {
                             let p = s[r];
-                            p !== void 0 && (a[i] = le(i, p))
+                            p !== void 0 && (a[i] = ue(i, p))
                         }
-                        let m = de({
+                        let m = le({
                             transform: a,
                             transformKeys: f
                         }, t);
@@ -5100,26 +5184,26 @@
                     }
                     return n
                 }
-                function et(e, t) {
+                function Ze(e, t) {
                     if (!t)
                         for (let n in e) {
                             let o = e[n];
                             return o?.legacy === !0 ? o : void 0
                         }
                 }
-                function Me(e, t, n, o, f, r) {
+                function we(e, t, n, o, f, r) {
                     for (let[a,m] of Object.entries(e)) {
                         let i = r ? m[r] : void 0;
                         if (i === null || !i && m.default === null)
                             continue;
-                        let s = i ?? m.default ?? et(m, r);
+                        let s = i ?? m.default ?? Ze(m, r);
                         if (!s)
                             continue;
                         let {initial: p, animate: c, transformTemplate: u} = s;
                         if (!p || !c)
                             continue;
                         let {transition: l, ...d} = c
-                          , g = Ae(p, d, l, tt(u, o), f);
+                          , g = ye(p, d, l, qe(u, o), f);
                         if (!g)
                             continue;
                         let y = {}
@@ -5131,16 +5215,22 @@
                         t(`${h}[${n}="${a}"]`, y, M)
                     }
                 }
-                function tt(e, t) {
+                function qe(e, t) {
                     if (!(!e || !t))
                         return (n, o) => e.replace(t, o)
                 }
-                function Te(e) {
+                function Me(e) {
                     return e ? e.find(n => n.mediaQuery ? window.matchMedia(n.mediaQuery).matches === !0 : !1)?.hash : void 0
                 }
-                return De(nt);
+                var mn = {
+                    animateAppearEffects: we,
+                    getActiveVariantHash: Me,
+                    spring: P,
+                    startOptimizedAppearAnimation: j
+                };
+                return mn
             }
-            )();
+            )()
         </script>
         <script type="framer/appear" id="__framer__appearAnimationsContent">
             {"nvom3v":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":-150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":2,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"fdgh14":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":0,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.5,"delay":0,"duration":1,"type":"spring"},"x":0,"y":0}}},"sc4cjo":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.3,"delay":1.5,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"1izrjyr":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":1.7,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"3vgal1":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":2.5,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"fnarkm":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":3,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"9s4q7w":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":2.5,"duration":0.5,"type":"spring"},"x":0,"y":0}}},"63ebyq":{"default":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":0},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"damping":30,"delay":0,"mass":1,"stiffness":400,"type":"spring"},"x":0,"y":0}}},"1qesurz":{"default":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transformPerspective":1200,"x":0,"y":96},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transformPerspective":1200,"transition":{"damping":30,"delay":0.1,"mass":1,"stiffness":300,"type":"spring"},"x":0,"y":0}}},"ocd46u":{"default":null,"hwmje0":null,"r7wf2e":{"initial":{"opacity":0.001,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"x":0,"y":150},"animate":{"opacity":1,"rotate":0,"rotateX":0,"rotateY":0,"scale":1,"skewX":0,"skewY":0,"transition":{"bounce":0.2,"delay":2.5,"duration":0.5,"type":"spring"},"x":0,"y":0}}}}
@@ -5169,16 +5259,16 @@
             }
             )()("data-framer-appear-id", "__Appear_Animation_Transform__", false)
         </script>
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-4GSWWF43.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-JR5VT52U.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-RIUMFBNJ.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/GC1jPigb8lEINLLEyXIPAMxEzh3TXUisKi2zV7pLzW4.337YIOIN.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-WGMCWTJ4.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-DX3YVDMF.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-FIZTVOUW.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-A3IIQ6X3.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/hG_I4VyEGkPCV2ToyrIYha-RJigdHCxW1ox28yYn_DA.QBZIGSXC.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-2MV44DPH.mjs">
         <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-V3XNM2WF.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-MZLAZL7B.mjs">
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-AWLDFXWO.mjs">
         <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/chunk-42U43NKG.mjs">
-        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.XBBDMS5W.mjs">
-        <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.XBBDMS5W.mjs"></script>
+        <link rel="modulepreload" fetchpriority="low" href="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.J7UI46HZ.mjs">
+        <script type="module" async data-framer-bundle="main" fetchpriority="low" src="https://framerusercontent.com/sites/51ZdAwuQOd8L3Uq4u9bkUM/script_main.J7UI46HZ.mjs"></script>
         <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true"></div>
         <!-- Start of bodyEnd -->
         <!-- End of bodyEnd -->
